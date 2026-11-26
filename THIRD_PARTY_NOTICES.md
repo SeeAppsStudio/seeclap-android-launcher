@@ -5,7 +5,7 @@
 https://github.com/Gathin23/cleanyourtv
 
 The Home-button guard and the remote-button handling of SeeClap Launcher
-(`app/src/main/java/studio/seeapps/home/Guard.kt`) are ported from CleanYourTV's
+(`tv/src/main/java/studio/seeapps/home/Guard.kt`) are ported from CleanYourTV's
 `HomeKeyService` and `RemoteKeys`: the boot probe, the short-press redirect after
 the system handled Home, opening the Home screen as an app while Android keeps
 its stock launcher, the "hold" long-press action and the conservative clean-up

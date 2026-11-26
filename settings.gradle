@@ -12,5 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = 'seeclap-launcher'
+rootProject.name = 'seeclap-android-launcher'
 include ':app'
+project(':app').projectDir = file('tv')

@@ -41,7 +41,7 @@ officiële release hieronder. Staat er geen APK, ga dan alleen verder met de cac
 op de computer of de pakketnaam studio.seeapps.home is en of de handtekening geldig is.
 Vergelijk de SHA-256 van het certificaat van de ondertekenaar met deze waarde:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -78,4 +78,4 @@ Dienst voor de Home-knop
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versies op GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versies op GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

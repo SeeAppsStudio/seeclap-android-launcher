@@ -8,7 +8,7 @@ Anslut datorn och tv:n till samma wifi. Öppna Claude Code eller Codex på dator
 
 ```text
 Följ anvisningarna på
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 för att hjälpa mig att tömma apparnas cacheminnen på tv:n steg för steg
 och fråga sedan om jag vill installera SeeClap Launcher.
 ```
@@ -19,8 +19,8 @@ Du kan rensa redan nu. Assistenten kör kommandona och visar när du ska bekräf
 
 APK-filen är en färdig installationsfil för tv:n.
 
-1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Kopiera filen till ett USB-minne, sätt det i tv:n och öppna filen med tv:ns filhanterare.
 3. Om tv:n ber om tillstånd att installera appen, ge tillståndet och stäng av det igen efter installationen. Öppna **SeeClap Launcher** och följ guiden på skärmen.
 
-[Läs mer om inställningarna, fjärrkontrollen och hur du byter tillbaka till din gamla hemskärm](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/sv.md)
+[Läs mer om inställningarna, fjärrkontrollen och hur du byter tillbaka till din gamla hemskärm](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/sv.md)

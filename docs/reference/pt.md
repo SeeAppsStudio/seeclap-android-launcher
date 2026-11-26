@@ -4,7 +4,7 @@ Numa TV ou box com Android TV 7 ou posterior, o SeeClap Launcher mostra as tuas 
 
 ## Instalar o launcher
 
-1. [Transfere o SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Transfere o SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Se transferiste o ficheiro na TV, abre-o. Se o transferiste no computador, copia-o para uma pen USB e abre-o na TV com um gestor de ficheiros.
 3. Se o Android bloquear a instalação, abre as definições que ele sugere. No Android 8 ou posterior, permite que a app que abre o ficheiro possa **instalar aplicações desconhecidas**. No Android 7, ativa temporariamente **Fontes desconhecidas** nas definições de segurança.
 4. Volta ao ficheiro, confirma **Instalar** e desativa a mesma permissão. Abre o **SeeClap Launcher** a partir das aplicações da TV.

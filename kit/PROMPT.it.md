@@ -40,7 +40,7 @@ indicata qui sotto. Se manca l’APK, prosegui solo con la pulizia. Sul computer
 il pacchetto sia studio.seeapps.home e verifica la firma. Confronta lo SHA-256 del
 certificato del firmatario con questo valore:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -77,4 +77,4 @@ Servizio del tasto Home
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versioni su GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versioni su GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)
