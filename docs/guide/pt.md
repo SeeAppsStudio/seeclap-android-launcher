@@ -17,9 +17,9 @@ O assistente executa os comandos e tu confirmas a ligação na TV com o comando.
 
 ## 2. Instalar apenas o APK, sem IA
 
-O primeiro APK aguarda publicação. Virá pronto a instalar, sem precisares de compilar nada.
+O APK está pronto a instalar. Não precisas de compilar nada.
 
-1. Abre a versão mais recente na [página oficial de versões](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) e transfere o ficheiro `.apk` em **Assets**.
+1. [Transfere o SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Copia-o para uma pen USB, liga-a à TV e abre o ficheiro com um gestor de ficheiros.
 3. Se o Android pedir autorização, permite a instalação e retira a permissão quando terminar. Abre o **SeeClap Launcher** e segue o assistente.
 

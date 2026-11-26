@@ -16,9 +16,9 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 ## 2. बिना एआई के सिर्फ़ लॉन्चर इंस्टॉल करें
 
-पहला APK अभी जारी नहीं हुआ है। APK सीधे इंस्टॉल होने वाली फ़ाइल है। आपको ऐप ख़ुद बनाने की ज़रूरत नहीं है।
+APK एक तैयार फ़ाइल है जिससे आप लॉन्चर सीधे टीवी पर इंस्टॉल कर सकते हैं।
 
-1. पहली रिलीज़ आने पर [डाउनलोड पेज](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) खोलें। **Assets** में वह फ़ाइल डाउनलोड करें जिसके नाम के अंत में `.apk` है।
+1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk)।
 2. फ़ाइल को पेन ड्राइव में कॉपी करें। पेन ड्राइव टीवी में लगाएँ और टीवी के फ़ाइल मैनेजर से फ़ाइल खोलें।
 3. अगर टीवी इंस्टॉल करने की अनुमति माँगे, तो अनुमति दें और इंस्टॉलेशन के बाद उसे बंद कर दें। **SeeClap Launcher** खोलें और स्क्रीन पर दिए निर्देशों का पालन करें।
 

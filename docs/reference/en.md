@@ -4,8 +4,8 @@ On a TV or box running Android TV 7 or later, SeeClap Launcher shows your favori
 
 ## Install the launcher
 
-1. On the official SeeClap Launcher GitHub repository, open **Releases**, select the latest release and expand **Assets**. No APK is available there until the first release. A Google Play edition is planned.
-2. Download `seeclap-launcher-<code>.apk`, where `<code>` is the version number. Use the TV browser, or copy the APK from a computer to a USB drive and open it on the TV with a file manager.
+1. [Download SeeClap Launcher 1.0.0 for your TV (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+2. If you downloaded the file on the TV, open it there. If you used a computer, copy the file to a USB drive and open it with the TV’s file manager.
 3. If Android blocks installation, open the settings it offers. On Android 8 or later, allow the app opening the file to **install unknown apps**. On Android 7, temporarily turn on **Unknown sources** in the security settings.
 4. Return to the file, confirm **Install**, then turn the same permission off. Open **SeeClap Launcher** from the TV’s apps.
 

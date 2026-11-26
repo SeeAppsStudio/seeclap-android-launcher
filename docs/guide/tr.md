@@ -17,9 +17,9 @@ Asistan komutları bilgisayarda çalıştırır. Televizyonda bağlantı isteği
 
 ## 2. Yapay zekâ kullanmadan yalnızca APK’yı yükle
 
-İlk APK henüz yayımlanmadı. Yayımlandığında dosya yüklemeye hazır olacak. Derleme yapman gerekmeyecek.
+APK yüklemeye hazır. Derleme yapman gerekmiyor.
 
-1. [Resmî sürümler sayfasında](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) en son sürümü aç. **Assets** bölümünden `.apk` dosyasını indir.
+1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Dosyayı bir USB belleğe kopyala. Belleği TV’ye tak ve dosyayı bir dosya yöneticisiyle aç.
 3. Android yükleme izni isterse geçici olarak izin ver. Yükleme bittiğinde izni kaldır. **SeeClap Launcher**’ı aç ve ekrandaki adımları izle.
 

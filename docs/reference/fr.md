@@ -4,8 +4,8 @@ Sur une TV ou une box sous Android TV 7 ou plus récent, SeeClap Launcher réuni
 
 ## Installer le launcher
 
-1. Dans le dépôt GitHub officiel de SeeClap Launcher, ouvrez **Releases**, puis la dernière version et **Assets**. Avant la première publication, aucun APK n’y est disponible. La version Google Play est prévue.
-2. Téléchargez `seeclap-launcher-<code>.apk`, où `<code>` est le numéro de la version. Utilisez le navigateur de la TV, ou copiez l’APK depuis un ordinateur sur une clé USB et ouvrez-le sur la TV avec un gestionnaire de fichiers.
+1. [Téléchargez SeeClap Launcher 1.0.0 pour votre TV (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+2. Si vous avez téléchargé le fichier sur la TV, ouvrez-le. Si vous utilisez un ordinateur, copiez le fichier sur une clé USB et ouvrez-le sur la TV avec le gestionnaire de fichiers.
 3. Si Android bloque l’installation, ouvrez les réglages proposés. Sur Android 8 ou plus récent, autorisez l’app qui ouvre le fichier à **installer des applications inconnues**. Sur Android 7, activez temporairement **Sources inconnues** dans les réglages de sécurité.
 4. Revenez au fichier, confirmez **Installer**, puis désactivez la même autorisation. Ouvrez **SeeClap Launcher** dans les applications de la TV.
 

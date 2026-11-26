@@ -4,8 +4,8 @@ Android TV 7 veya daha yeni bir sürüm kullanan televizyon ya da TV kutusunda S
 
 ## Başlatıcıyı yükle
 
-1. GitHub’da SeeClap Launcher’ın resmî proje sayfasında **Releases** bölümünü aç. En son sürümü seç ve **Assets** listesini genişlet. İlk sürüm yayımlanana kadar burada APK bulunmaz. Google Play sürümü planlanıyor.
-2. `seeclap-launcher-<code>.apk` dosyasını indir. `<code>` sürüm numarasıdır. TV’nin tarayıcısını kullanabilir veya APK’yı bilgisayardan bir USB belleğe kopyalayıp TV’de bir dosya yöneticisiyle açabilirsin.
+1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+2. Dosyayı TV’ye indirdiysen aç. Bilgisayara indirdiysen bir USB belleğe kopyala, belleği TV’ye tak ve dosyayı bir dosya yöneticisiyle aç.
 3. Android yüklemeyi engellerse sunduğu ayarları aç. Android 8 ve sonraki sürümlerde dosyayı açan uygulamaya **bilinmeyen uygulamaları yükleme** izni ver. Android 7’de güvenlik ayarlarından **Bilinmeyen kaynaklar** seçeneğini geçici olarak aç.
 4. Dosyaya dön, **Yükle** seçeneğini onayla ve ardından aynı izni kapat. TV’nin uygulama listesinden **SeeClap Launcher**’ı aç.
 

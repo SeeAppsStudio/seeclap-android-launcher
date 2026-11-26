@@ -17,9 +17,9 @@ Der Assistent führt die Befehle aus und sagt dir, was du am Fernseher mit der F
 
 ## 2. Nur SeeClap Launcher installieren, ohne KI
 
-Die erste APK (Installationsdatei) ist noch nicht veröffentlicht. Du musst nichts selbst kompilieren.
+Die Installationsdatei ist fertig. Du musst nichts selbst kompilieren.
 
-1. Sobald die Datei verfügbar ist, öffne die [offizielle Downloadseite](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) und lade unter **Assets** die Datei mit der Endung `.apk` herunter.
+1. [SeeClap Launcher 1.0.0 für deinen Fernseher herunterladen (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Kopiere sie auf einen USB-Stick. Stecke ihn in den Fernseher und öffne die Datei dort mit dem Dateimanager.
 3. Falls Android nachfragt, erlaube die Installation und entziehe diese Berechtigung anschließend wieder. Öffne **SeeClap Launcher** und folge den Schritten auf dem Bildschirm.
 

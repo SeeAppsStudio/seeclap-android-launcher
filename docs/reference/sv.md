@@ -4,8 +4,8 @@ På en tv eller box med Android TV 7 eller senare visar SeeClap Launcher dina fa
 
 ## Installera startskärmen
 
-1. Öppna **Releases** i det officiella GitHub-projektet för SeeClap Launcher. Välj den senaste utgåvan och fäll ut **Assets**. Före den första utgåvan finns det ingen APK-fil där. En utgåva för Google Play är planerad.
-2. Hämta `seeclap-launcher-<code>.apk`, där `<code>` är versionsnumret. Använd tv:ns webbläsare eller kopiera APK-filen från en dator till ett USB-minne och öppna den på tv:n med en filhanterare.
+1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+2. Använd tv:ns webbläsare för att hämta filen eller kopiera den från datorn till ett USB-minne och öppna den med tv:ns filhanterare.
 3. Om Android blockerar installationen öppnar du inställningarna som visas. På Android 8 eller senare ger du appen som öppnar filen tillstånd att **installera okända appar**. På Android 7 aktiverar du tillfälligt **Okända källor** i säkerhetsinställningarna.
 4. Gå tillbaka till filen, bekräfta med **Installera** och stäng sedan av samma behörighet. Öppna **SeeClap Launcher** bland tv:ns appar.
 

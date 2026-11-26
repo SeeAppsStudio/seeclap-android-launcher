@@ -16,9 +16,9 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 ## 2. 只安装启动器，无需 AI
 
-首个 APK 尚未发布。APK 是可以直接安装的文件，无需自己编译。
+APK 是可以在电视上直接安装的文件。
 
-1. 发布后，打开[版本下载页](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)，在 **Assets** 下下载以 `.apk` 结尾的文件。
+1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk)。
 2. 把文件复制到 U 盘，将 U 盘插入电视，用电视上的文件管理器打开文件。
 3. 如果电视提示需要安装权限，请临时允许，安装后再关闭该权限。打开 **SeeClap Launcher**，跟着屏幕上的提示完成设置。
 

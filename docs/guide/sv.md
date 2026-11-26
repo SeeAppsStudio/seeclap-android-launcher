@@ -17,9 +17,9 @@ Du kan rensa redan nu. Assistenten kör kommandona och visar när du ska bekräf
 
 ## 2. Installera bara hemskärmen utan AI
 
-Den första APK-filen har ännu inte släppts. Det är en färdig installationsfil, så du behöver inte bygga appen själv.
+APK-filen är en färdig installationsfil för tv:n.
 
-1. När den första versionen finns kan du öppna [sidan med utgåvor](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) och hämta filen som slutar på `.apk` under **Assets**.
+1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Kopiera filen till ett USB-minne, sätt det i tv:n och öppna filen med tv:ns filhanterare.
 3. Om tv:n ber om tillstånd att installera appen, ge tillståndet och stäng av det igen efter installationen. Öppna **SeeClap Launcher** och följ guiden på skärmen.
 

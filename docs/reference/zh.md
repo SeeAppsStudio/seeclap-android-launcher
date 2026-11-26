@@ -4,8 +4,8 @@
 
 ## 安装启动器
 
-1. 打开 SeeClap Launcher 在 GitHub 上的官方项目主页，进入 **Releases**，选择最新版本，再展开 **Assets**。首个版本发布前，这里没有可下载的 APK。Google Play 版已列入计划。
-2. 下载 `seeclap-launcher-<code>.apk`，其中 `<code>` 代表版本编号。可以使用电视浏览器下载，也可以在电脑上下载后复制到 U 盘，再用电视上的文件管理器打开。
+1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk)。
+2. 可以直接用电视浏览器下载，也可以在电脑上下载后复制到 U 盘，再用电视上的文件管理器打开。
 3. 如果 Android 阻止安装，请打开提示中的设置。Android 8 及更高版本需要为打开文件的那个应用开启**安装未知应用**权限。在 Android 7 上，请在安全设置中临时开启**未知来源**。
 4. 返回 APK 文件，确认**安装**，然后关闭刚才开启的权限。从电视的应用列表中打开 **SeeClap Launcher**。
 

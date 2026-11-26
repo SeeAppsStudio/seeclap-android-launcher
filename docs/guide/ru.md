@@ -17,9 +17,9 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 ## 2. Только установить лаунчер без ИИ
 
-Первый APK ещё не опубликован. Это готовый установочный файл, собирать приложение самостоятельно не нужно.
+APK — это готовый файл для установки лаунчера на телевизор.
 
-1. Когда появится первый выпуск, откройте [страницу выпусков](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) и скачайте файл `.apk` из раздела **Assets**.
+1. [Скачайте APK-файл SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Скопируйте его на флешку, подключите её к телевизору и откройте файл через файловый менеджер.
 3. Если телевизор запросит разрешение на установку, дайте его и отключите после установки. Откройте **SeeClap Launcher** и следуйте подсказкам на экране.
 
