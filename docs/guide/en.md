@@ -1,54 +1,26 @@
-# SeeClap Launcher installation guide
+# SeeClap Launcher on your TV
 
-On a TV or box running Android TV 7 or later, SeeClap Launcher shows your favorite apps and the programs they share. The first tile opens SeeClap or offers to install it.
+SeeClap Launcher brings your favorite apps together on the Home screen of your Android TV or Google TV (Android 7 or later). SeeClap always has the first tile.
 
-## With a computer and an AI assistant
+## 1. Clean up your TV with an assistant (recommended)
 
-You can check your own TV and clean its caches even before the first APK is published. The kit adapts the approach used by [CleanYourTV](https://github.com/Gathin23/cleanyourtv). It can also help install the launcher once an official APK is available.
+Connect your computer and TV to the same Wi-Fi network. On the computer, open Claude Code or Codex with terminal access. Paste this sentence into the chat.
 
-1. Connect the TV and computer to the same private network. On the computer, set up Claude Code or Codex with terminal access, plus the Android SDK Platform-Tools, which include `adb`.
-2. On the TV, open **Settings › System › About** and press the build number seven times to show Developer options. Temporarily enable wireless or network debugging if your TV offers it. Follow the pairing instructions and confirm your computer’s connection on the TV. Menu names vary by model.
-3. Copy the instructions from the [full English AI kit](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/kit/PROMPT.md) into your assistant, then add your request. You can copy this example.
+```text
+Follow the instructions at
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+to guide me through the steps on my TV, clear my app caches
+and offer to install SeeClap Launcher.
+```
 
-> Check my TV model and measure free space before and after clearing caches. Keep my app data and sign-ins. Don’t use `pm clear`, which erases an app’s data. Before disabling or uninstalling anything, show me the specific app and wait for my choice.
+The assistant runs the commands and tells you what to confirm on the TV with your remote. Clearing the caches keeps your apps and accounts. If the assistant suggests turning off an app, you decide before it goes ahead.
 
-The amount of space recovered depends on the caches and may be zero. Turn debugging off in the TV menus when you finish. If ADB is unavailable, use the manual method below. Installing the launcher requires an official APK, available starting with the first release.
+## 2. Install just SeeClap Launcher, without AI
 
-## Install the launcher
+The first APK (installation file) is awaiting release. You don’t need to compile anything.
 
-1. On the official SeeClap Launcher GitHub repository, open **Releases**, select the latest release and expand **Assets**. No APK is available there until the first release. A Google Play edition is planned.
-2. Download `seeclap-launcher-<code>.apk`, where `<code>` is the version number. Use the TV browser, or copy the APK from a computer to a USB drive and open it on the TV with a file manager.
-3. If Android blocks installation, open the settings it offers. On Android 8 or later, allow the app opening the file to **install unknown apps**. On Android 7, temporarily turn on **Unknown sources** in the security settings.
-4. Return to the file, confirm **Install**, then turn the same permission off. Open **SeeClap Launcher** from the TV’s apps.
+1. Once it’s available, open the [official releases page](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases) and download the `.apk` file under **Assets**.
+2. Copy it to a USB drive. Plug the drive into the TV and open the file with the TV’s file manager.
+3. If Android asks, allow the installation and turn that permission off again afterward. Open **SeeClap Launcher** and follow the on-screen setup.
 
-## First launch
-
-1. Select **Get started**. Use Left and Right to preview the themes, then press OK. **Automatic** follows your TV’s theme. You can also choose **Light** or **Dark**.
-2. If SeeClap is missing, choose **Install** or **Later**. The launcher opens the available store (Google Play or Amazon on Fire TV). The APK edition can also download SeeClap from its official site and verify its signature. Confirm the installation in Android. The Play edition uses the store for installs and updates.
-3. Choose up to five other favorites with the default layout, or four with larger tiles. Select **Continue** to save your selection.
-4. For the Home button, select SeeClap Launcher if Android asks for a default Home app. If setup offers **Open Accessibility**, read the service description. Choose **On** to continue, then turn on **SeeClap Launcher – Home button** in Android. **Cancel** dismisses the request. Choose **Later** to skip this step.
-5. With that service active, press the remote button you want to assign. A short press will open SeeClap. A long press can open the original app if it is recognized, installed and the option is on in **Settings › Remote**.
-6. Run the optional clean-up or choose **Continue**, then select **Go to Home**. To revisit your choices, open **Settings › Run setup again**.
-
-## Use the remote and apps
-
-- Press Left or Right to browse favorites and OK to open one. Up takes you to available programs or playback controls, or to the top menu if there are none. Down takes you to the apps grid.
-- Hold OK or press Menu on another app to add it to favorites, move it within favorites or hide it. If Android asks for permission to read TV listings, allow it to show the program cards shared by the selected app.
-
-## Free up storage
-
-Under **Settings › Clean up and speed up**, **Quick clean-up** lists your apps by file size. Select one to request removal, then confirm in Android.
-
-**Full clean-up** uses local debugging on the TV. Review the options before starting. You can clear caches and turn off selected preinstalled apps. Use **Turned-off apps** to re-enable apps turned off by the launcher. Cleared cache data cannot be restored.
-
-## Return to the original Home screen
-
-If you enabled the accessibility service, choose **Settings › Home button › Pause**, then press Home. **Open the original Home screen** is also available when another Home app is the default. If SeeClap Launcher is the default, select the manufacturer’s Home app in Android’s default app settings. Menu names vary by TV.
-
-## Privacy and terms of use
-
-Your settings are stored on the TV and may be included in Android’s backup. The launcher reads program listings locally. It can download artwork over HTTPS and cache it. The APK edition also contacts `downloads.seeapps.studio` for installs and updates. The launcher has no ads or analytics. The accessibility service detects button presses and when the original Home screen opens, without reading screen content.
-
-The license permits personal, non-commercial use of the unmodified software. You can share the official project link. Redistributing the software requires prior written permission from See Apps Studio. SeeClap stays in first place. Its tile cannot be moved or hidden, and SeeClap cannot be removed or uninstalled from within the launcher. Once SeeClap is installed, keep it installed while you use the launcher.
-
-For help, email [support@seeapps.studio](mailto:support@seeapps.studio).
+[Detailed guide and help](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/en.md)

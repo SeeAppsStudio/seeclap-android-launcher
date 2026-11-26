@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Tester le nettoyage sur une TV simulée
+        run: python3 tools/tests/test_tv_cache.py
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
