@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Touches seulement au départ ; les changements de fenêtre ne sont écoutés que si un accueil
+     d'origine doit être renvoyé ici (HomeGuardService.loadConfig). Aucun contenu d'écran lu. -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagRequestFilterKeyEvents"
+    android:canRequestFilterKeyEvents="true"
+    android:canRetrieveWindowContent="false"
+    android:notificationTimeout="0"
+    android:isAccessibilityTool="false"
+    android:description="@string/guard_description" />

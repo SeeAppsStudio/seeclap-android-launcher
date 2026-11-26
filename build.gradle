@@ -1,0 +1,11 @@
+// Même outillage que l'app SeeClap (AGP 9.2.1, Kotlin 2.2.0, Gradle 9.4.1).
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:9.2.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:2.2.0'
+    }
+}

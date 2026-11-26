@@ -1,0 +1,91 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
+apply plugin: 'com.android.application'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+// Sans configuration privée, la release reste non signée.
+def keystoreFile = rootProject.file('keystore.properties')
+def keystore = new Properties()
+if (keystoreFile.exists()) keystoreFile.withInputStream { keystore.load(it) }
+
+android {
+    namespace 'studio.seeapps.home'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'studio.seeapps.home'
+        // SeeClap demande Android 7 : en dessous, l'accueil n'aurait rien à ouvrir.
+        minSdk 24
+        targetSdk 36
+        versionCode 1
+        versionName '1.0.0'
+        // Où l'accueil cherche ses propres mises à jour quand il ne vient pas de Google Play.
+        buildConfigField 'String', 'SELF_UPDATE_MANIFEST', '"https://downloads.seeapps.studio/seeclap-launcher/android/latest.json"'
+    }
+
+    signingConfigs {
+        if (keystore['storeFile']) {
+            release {
+                storeFile rootProject.file(keystore['storeFile'])
+                storePassword keystore['storePassword']
+                keyAlias keystore['keyAlias']
+                keyPassword keystore['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            // R8 retire et optimise le code : APK plus petit, démarrage plus rapide sur une petite box.
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (keystore['storeFile']) signingConfig signingConfigs.release
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    // site : APK du site (TV sans Google Play) — installe SeeClap et se met à jour depuis downloads.seeapps.studio.
+    // play : Google Play — n'installe rien lui-même (Google l'interdit), SeeClap vient de Google Play.
+    flavorDimensions 'store'
+    productFlavors {
+        site {
+            dimension 'store'
+            buildConfigField 'boolean', 'SITE', 'true'
+        }
+        play {
+            dimension 'store'
+            buildConfigField 'boolean', 'SITE', 'false'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packaging {
+        resources {
+            excludes += ['META-INF/*.version', 'META-INF/*.kotlin_module', 'DebugProbesKt.bin', 'kotlin/**']
+        }
+    }
+
+    lint {
+        // Une TV n'a pas d'écran tactile : l'accueil le déclare non requis.
+        disable 'ImpliedTouchscreenHardware', 'MissingLeanbackLauncher'
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = JvmTarget.JVM_17
+    }
+}
+
+dependencies {
+    // Aucune bibliothèque : tout est Android pur, pour un APK léger et un démarrage rapide sur les petites box.
+    testImplementation 'junit:junit:4.13.2'
+}
