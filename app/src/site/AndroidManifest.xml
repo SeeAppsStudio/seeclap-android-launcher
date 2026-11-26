@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Version « site » seulement (jamais Google Play) : installer SeeClap depuis son site officiel
-     sur les TV sans Google Play, et tenir à jour SeeClap et l'accueil. -->
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-    <!-- Android 12+ : les mises à jour des apps que l'accueil a installées se posent sans question. -->
-    <uses-permission android:name="android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION" />
-</manifest>

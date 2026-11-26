@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <!-- Anciennes installations, en attendant le déplacement des clés dans noBackupFilesDir. -->
-    <exclude domain="file" path="adbkey" />
-    <exclude domain="file" path="adbkey.pub" />
-</full-backup-content>
