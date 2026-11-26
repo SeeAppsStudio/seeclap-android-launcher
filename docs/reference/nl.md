@@ -4,6 +4,8 @@ Op een tv of box met Android TV 7 of hoger toont SeeClap Launcher je favoriete a
 
 ## De launcher installeren
 
+**Downloader by AFTVnews** · Code voor Downloader **`6812755`**. [Installeren met Downloader](https://seeclap.com/nl/android-launcher/tv/#downloader)
+
 1. [Download SeeClap Launcher 1.0.0 voor je tv (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Heb je het bestand op de tv gedownload, open het dan daar. Heb je het op je computer gedownload, kopieer het dan naar een USB-stick en open het met de bestandsbeheerder op de tv.
 3. Blokkeert Android de installatie, open dan de aangeboden instellingen. Geef op Android 8 of hoger de app waarmee je het bestand opent toestemming om **onbekende apps te installeren**. Zet op Android 7 tijdelijk **Onbekende bronnen** aan bij de beveiligingsinstellingen.

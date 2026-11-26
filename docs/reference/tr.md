@@ -4,6 +4,8 @@ Android TV 7 veya daha yeni bir sürüm kullanan televizyon ya da TV kutusunda S
 
 ## Başlatıcıyı yükle
 
+**Downloader by AFTVnews** · Downloader’a girilecek kod **`6812755`**. [Downloader ile yükle](https://seeclap.com/tr/android-launcher/tv/#downloader)
+
 1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Dosyayı TV’ye indirdiysen aç. Bilgisayara indirdiysen bir USB belleğe kopyala, belleği TV’ye tak ve dosyayı bir dosya yöneticisiyle aç.
 3. Android yüklemeyi engellerse sunduğu ayarları aç. Android 8 ve sonraki sürümlerde dosyayı açan uygulamaya **bilinmeyen uygulamaları yükleme** izni ver. Android 7’de güvenlik ayarlarından **Bilinmeyen kaynaklar** seçeneğini geçici olarak aç.

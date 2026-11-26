@@ -17,6 +17,18 @@ L’assistente esegue i comandi e tu confermi il collegamento sulla TV con il te
 
 ## 2. Installare solo l’APK, senza IA
 
+### Installare con Downloader
+
+1. Sulla TV apri Google Play, cerca «Downloader by AFTVnews», installa l’app e aprila.
+2. **Codice da inserire in Downloader — `6812755`**. Nella barra degli indirizzi di Downloader inserisci il codice mostrato su questa pagina e premi «Go». Attendi che AFTVnews ti indirizzi al file ufficiale. Se la pagina si blocca, inserisci l’indirizzo diretto che trovi qui sotto.
+3. Su Android 8 o versioni successive, autorizza Downloader a installare app solo se Android te lo chiede. Su Android 7 attiva temporaneamente «Origini sconosciute». Torna al file, scegli «Installa» e poi «Apri». Al termine, revoca l’autorizzazione nelle impostazioni della TV.
+
+Indirizzo diretto dell’APK · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[Installare SeeClap Launcher su Android TV e Google TV](https://seeclap.com/it/android-launcher/tv/)
+
+### Con una chiavetta USB
+
 L’APK è pronto da installare. Non devi compilare nulla.
 
 1. [Scarica SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

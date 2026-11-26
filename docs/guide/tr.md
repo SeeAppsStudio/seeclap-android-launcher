@@ -17,6 +17,18 @@ Asistan komutları bilgisayarda çalıştırır. Televizyonda bağlantı isteği
 
 ## 2. Yapay zekâ kullanmadan yalnızca APK’yı yükle
 
+### Downloader ile yükle
+
+1. TV’de Google Play’i aç, “Downloader by AFTVnews” uygulamasını ara, yükle ve aç.
+2. **Downloader’a girilecek kod — `6812755`**. Bu sayfada gösterilen kodu Downloader’ın adres çubuğuna yaz ve “Go” düğmesine bas. AFTVnews seni resmî dosyaya yönlendirene kadar bekle. Sayfa ilerlemezse aşağıdaki doğrudan indirme adresini gir.
+3. Android 8 veya daha yeni sürümlerde, yalnızca Android isterse Downloader’a uygulama yükleme izni ver. Android 7’de “Bilinmeyen kaynaklar” seçeneğini geçici olarak aç. Dosyaya dön, önce “Yükle”, ardından “Aç” seçeneğini seç. Son olarak TV ayarlarından verdiğin izni kaldır.
+
+APK dosyasının doğrudan indirme adresi · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[Android TV ve Google TV’ye SeeClap Launcher kurulumu](https://seeclap.com/tr/android-launcher/tv/)
+
+### USB bellekle yükle
+
 APK yüklemeye hazır. Derleme yapman gerekmiyor.
 
 1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

@@ -4,6 +4,8 @@
 
 ## 安装启动器
 
+**Downloader by AFTVnews** · 在 Downloader 中输入的代码 **`6812755`**. [使用 Downloader 安装](https://seeclap.com/zh/android-launcher/tv/#downloader)
+
 1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)。
 2. 可以直接用电视浏览器下载，也可以在电脑上下载后复制到 U 盘，再用电视上的文件管理器打开。
 3. 如果 Android 阻止安装，请打开提示中的设置。Android 8 及更高版本需要为打开文件的那个应用开启**安装未知应用**权限。在 Android 7 上，请在安全设置中临时开启**未知来源**。

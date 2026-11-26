@@ -4,6 +4,8 @@
 
 ## Как установить лаунчер
 
+**Downloader by AFTVnews** · Код для ввода в Downloader **`6812755`**. [Установка через Downloader](https://seeclap.com/ru/android-launcher/tv/#downloader)
+
 1. [Скачайте APK-файл SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Можно скачать файл в браузере телевизора или перенести его с компьютера на флешке и открыть на телевизоре через файловый менеджер.
 3. Если Android заблокирует установку, откройте предложенные настройки. В Android 8 и новее разрешите приложению, в котором открываете файл, **устанавливать неизвестные приложения**. В Android 7 временно включите **Неизвестные источники** в настройках безопасности.

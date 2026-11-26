@@ -21,6 +21,10 @@ The assistant runs the commands and shows how much space was freed. You use the 
 
 ## 2. Install just the launcher · No AI needed
 
+On your TV, open **Downloader by AFTVnews**, enter **`6812755`**, then select **Go**. If the code does not open the file, enter [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk). Select **Install** and then **Open**. If Android asked for permission to install apps, turn it off again afterward. [Illustrated setup guide in 12 languages](https://seeclap.com/en/android-launcher/tv/)
+
+**With a USB drive**
+
 [Download SeeClap Launcher 1.0.0 for Android TV (signed APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk). Copy it to a USB drive, open it on the TV with a file manager, then select **Install**. If Android asks for installation permission, turn it off again afterward. Open **SeeClap Launcher** and follow the on-screen setup. [Step-by-step guide](docs/guide/en.md)
 
 [Detailed help](docs/reference/en.md) · [Personal-use licence](LICENSE) · [Build from source](docs/build.md)

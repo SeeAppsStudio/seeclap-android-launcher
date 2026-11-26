@@ -17,6 +17,18 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/sk
 
 ## 2. Только установить лаунчер без ИИ
 
+### Установка через Downloader
+
+1. На телевизоре откройте Google Play. Найдите Downloader by AFTVnews, установите и откройте приложение.
+2. **Код для ввода в Downloader — `6812755`**. Введите показанный здесь код в адресную строку Downloader и нажмите Go. Подождите, пока AFTVnews перенаправит вас к официальному APK-файлу. Если переход заблокирован, введите прямой адрес, указанный ниже.
+3. На Android 8 и новее разрешите Downloader устанавливать приложения, только если Android об этом попросит. На Android 7 временно включите «Неизвестные источники». Вернитесь к файлу, выберите «Установить», затем «Открыть». После установки отключите выданное разрешение.
+
+Прямой адрес APK-файла · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[Установка SeeClap Launcher на Android TV и Google TV](https://seeclap.com/ru/android-launcher/tv/)
+
+### С помощью флешки
+
 APK — это готовый файл для установки лаунчера на телевизор.
 
 1. [Скачайте APK-файл SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

@@ -4,6 +4,8 @@ Auf einem Fernseher oder einer Box mit Android TV ab Version 7 zeigt SeeClap Lau
 
 ## Launcher installieren
 
+**Downloader by AFTVnews** · Code für die Eingabe in Downloader **`6812755`**. [Mit Downloader installieren](https://seeclap.com/de/android-launcher/tv/#downloader)
+
 1. [SeeClap Launcher 1.0.0 für deinen Fernseher herunterladen (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Hast du die Datei auf dem Fernseher heruntergeladen, öffne sie dort. Hast du sie auf dem Computer, kopiere sie auf einen USB-Stick und öffne sie am Fernseher mit dem Dateimanager.
 3. Blockiert Android die Installation, öffne die angebotenen Einstellungen. Erlaube unter Android 8 oder neuer der App, die die Datei öffnet, **unbekannte Apps zu installieren**. Aktiviere unter Android 7 vorübergehend **Unbekannte Quellen** in den Sicherheitseinstellungen.

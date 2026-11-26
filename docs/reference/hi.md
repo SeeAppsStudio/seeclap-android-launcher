@@ -4,6 +4,8 @@ Android TV 7 या इसके बाद के वर्शन वाले �
 
 ## लॉन्चर इंस्टॉल करें
 
+**Downloader by AFTVnews** · Downloader में डालने वाला कोड **`6812755`**. [Downloader से इंस्टॉल करें](https://seeclap.com/hi/android-launcher/tv/#downloader)
+
 1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)।
 2. टीवी के ब्राउज़र से फ़ाइल डाउनलोड करें या कंप्यूटर से उसे पेन ड्राइव में कॉपी करें। पेन ड्राइव टीवी में लगाएँ और फ़ाइल मैनेजर से फ़ाइल खोलें।
 3. अगर Android इंस्टॉलेशन रोकता है, तो उसके बताए सेटिंग्स पेज को खोलें। Android 8 या इसके बाद के वर्शन में फ़ाइल खोलने वाले ऐप को **अनजान ऐप्स इंस्टॉल करने** की अनुमति दें। Android 7 में सुरक्षा सेटिंग्स में **अज्ञात स्रोत** को कुछ देर के लिए चालू करें।

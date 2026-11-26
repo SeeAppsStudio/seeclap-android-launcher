@@ -4,6 +4,8 @@ Sur une TV ou une box sous Android TV 7 ou plus récent, SeeClap Launcher réuni
 
 ## Installer le launcher
 
+**Downloader by AFTVnews** · Code à saisir dans Downloader **`6812755`**. [Installer avec Downloader](https://seeclap.com/fr/android-launcher/tv/#downloader)
+
 1. [Téléchargez SeeClap Launcher 1.0.0 pour votre TV (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Si vous avez téléchargé le fichier sur la TV, ouvrez-le. Si vous utilisez un ordinateur, copiez le fichier sur une clé USB et ouvrez-le sur la TV avec le gestionnaire de fichiers.
 3. Si Android bloque l’installation, ouvrez les réglages proposés. Sur Android 8 ou plus récent, autorisez l’app qui ouvre le fichier à **installer des applications inconnues**. Sur Android 7, activez temporairement **Sources inconnues** dans les réglages de sécurité.

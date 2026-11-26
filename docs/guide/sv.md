@@ -17,6 +17,18 @@ Du kan rensa redan nu. Assistenten kör kommandona och visar när du ska bekräf
 
 ## 2. Installera bara hemskärmen utan AI
 
+### Installera med Downloader
+
+1. Öppna Google Play på tv:n. Sök efter Downloader by AFTVnews, installera appen och öppna den.
+2. **Kod att ange i Downloader — `6812755`**. Skriv koden som visas här i adressfältet i Downloader och välj Go. Vänta tills AFTVnews skickar dig vidare till den officiella APK-filen. Om du inte kommer vidare kan du skriva in direktadressen nedan.
+3. På Android 8 eller senare ger du Downloader tillstånd att installera appar bara om Android ber om det. På Android 7 slår du tillfälligt på Okända källor. Gå tillbaka till filen, välj Installera och sedan Öppna. Stäng av tillståndet igen efter installationen.
+
+Direktadress till APK-filen · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[Installera SeeClap Launcher på Android TV och Google TV](https://seeclap.com/sv/android-launcher/tv/)
+
+### Med ett USB-minne
+
 APK-filen är en färdig installationsfil för tv:n.
 
 1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

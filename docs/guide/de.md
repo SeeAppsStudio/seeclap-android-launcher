@@ -17,6 +17,18 @@ Der Assistent führt die Befehle aus und sagt dir, was du am Fernseher mit der F
 
 ## 2. Nur SeeClap Launcher installieren, ohne KI
 
+### Mit Downloader installieren
+
+1. Öffne Google Play auf deinem Fernseher und suche nach „Downloader by AFTVnews“. Installiere die App und öffne sie.
+2. **Code für die Eingabe in Downloader — `6812755`**. Gib den hier angezeigten Code in das Adressfeld ein und wähle „Go“. Warte, bis AFTVnews dich zur offiziellen Datei weiterleitet. Falls die Weiterleitung hängen bleibt, gib die unten angegebene direkte Adresse ein.
+3. Erlaube Downloader ab Android 8 nur dann, Apps zu installieren, wenn Android danach fragt. Aktiviere unter Android 7 vorübergehend „Unbekannte Quellen“. Kehre zur Datei zurück und wähle „Installieren“, dann „Öffnen“. Entziehe die Berechtigung anschließend wieder in den Einstellungen des Fernsehers.
+
+Direkte Adresse der APK-Datei · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[SeeClap Launcher auf Android TV und Google TV installieren](https://seeclap.com/de/android-launcher/tv/)
+
+### Mit einem USB-Stick
+
 Die Installationsdatei ist fertig. Du musst nichts selbst kompilieren.
 
 1. [SeeClap Launcher 1.0.0 für deinen Fernseher herunterladen (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

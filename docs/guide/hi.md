@@ -16,6 +16,18 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/sk
 
 ## 2. बिना एआई के सिर्फ़ लॉन्चर इंस्टॉल करें
 
+### Downloader से इंस्टॉल करें
+
+1. टीवी पर Google Play खोलें। Downloader by AFTVnews खोजें, उसे इंस्टॉल करें और खोलें।
+2. **Downloader में डालने वाला कोड — `6812755`**. यहाँ दिखाया गया कोड Downloader के पता लिखने वाले खाने में डालें और Go चुनें। थोड़ा इंतज़ार करें। AFTVnews आपको आधिकारिक APK फ़ाइल तक ले जाएगा। अगर यह पेज न खुले, तो नीचे दिया गया सीधा पता डालें।
+3. Android 8 या बाद के वर्शन पर Downloader को ऐप इंस्टॉल करने की अनुमति तभी दें जब Android आपसे पूछे। Android 7 पर कुछ देर के लिए “अज्ञात स्रोत” चालू करें। फ़ाइल पर वापस जाएँ, “इंस्टॉल करें” चुनें और फिर “खोलें” चुनें। इंस्टॉलेशन के बाद यह अनुमति बंद कर दें।
+
+APK फ़ाइल का सीधा पता · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[Android TV और Google TV पर SeeClap Launcher इंस्टॉल करें](https://seeclap.com/hi/android-launcher/tv/)
+
+### पेन ड्राइव से
+
 APK एक तैयार फ़ाइल है जिससे आप लॉन्चर सीधे टीवी पर इंस्टॉल कर सकते हैं।
 
 1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)।

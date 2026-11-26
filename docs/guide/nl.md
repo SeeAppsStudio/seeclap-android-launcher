@@ -17,6 +17,18 @@ De assistent voert de opdrachten uit. Je bevestigt op de tv met de afstandsbedie
 
 ## 2. Alleen SeeClap Launcher installeren, zonder AI
 
+### Installeren met Downloader
+
+1. Open Google Play op je tv en zoek naar ‘Downloader by AFTVnews’. Installeer de app en open deze.
+2. **Code voor Downloader — `6812755`**. Vul in het adresveld de code van deze pagina in en kies ‘Go’. Wacht tot AFTVnews je doorstuurt naar het officiële bestand. Loopt de doorverwijzing vast, vul dan het directe adres hieronder in.
+3. Geef Downloader op Android 8 of hoger alleen toestemming om apps te installeren als Android daarom vraagt. Zet op Android 7 tijdelijk ‘Onbekende bronnen’ aan. Ga terug naar het bestand, kies ‘Installeren’ en vervolgens ‘Openen’. Trek daarna de toestemming weer in via de instellingen van je tv.
+
+Direct adres van het APK-bestand · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[SeeClap Launcher installeren op Android TV en Google TV](https://seeclap.com/nl/android-launcher/tv/)
+
+### Met een USB-stick
+
 Het installatiebestand is klaar voor gebruik. Je hoeft zelf niets te compileren.
 
 1. [Download SeeClap Launcher 1.0.0 voor je tv (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).

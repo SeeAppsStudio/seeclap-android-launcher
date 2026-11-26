@@ -16,6 +16,18 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/sk
 
 ## 2. 只安装启动器，无需 AI
 
+### 使用 Downloader 安装
+
+1. 在电视上打开 Google Play，搜索 Downloader by AFTVnews，安装后打开。
+2. **在 Downloader 中输入的代码 — `6812755`**. 在 Downloader 的地址栏输入这里显示的代码，选择 Go，等待 AFTVnews 跳转到官方 APK 文件。如果无法跳转，请在地址栏输入下方的下载直链。
+3. 在 Android 8 或更高版本上，只有当系统提示时，才允许 Downloader 安装应用。在 Android 7 上，临时开启“未知来源”。返回 APK 文件，选择“安装”，再选择“打开”。安装后请关闭刚才开启的权限。
+
+APK 文件下载直链 · [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk)
+
+[在 Android TV 和 Google TV 上安装 SeeClap Launcher](https://seeclap.com/zh/android-launcher/tv/)
+
+### 使用 U 盘安装
+
 APK 是可以在电视上直接安装的文件。
 
 1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)。
