@@ -8,4 +8,4 @@ For a personal build from the unchanged source, use JDK 17 and Android SDK platf
 python3 tools/strings/build.py
 ```
 
-Debug APKs are written to `app/build/outputs/apk/` and use a local development key. Some SeeClap editions require a matching signature for direct program sharing. Official releases are signed separately by See Apps Studio.
+Debug APKs are written to `tv/build/outputs/apk/` and use a local development key. Some SeeClap editions require a matching signature for direct program sharing. Official releases are signed separately by See Apps Studio.

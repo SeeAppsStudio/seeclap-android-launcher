@@ -45,7 +45,7 @@ adb -s SERIAL shell df -k /data
 在电脑上确认包名为 studio.seeapps.home，并验证下载文件的签名。
 将签名证书的 SHA-256 指纹与下方数值核对：
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -81,4 +81,4 @@ com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub 发布版本](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub 发布版本](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

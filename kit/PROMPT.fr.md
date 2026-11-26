@@ -41,7 +41,7 @@ version officielle ci-dessous. Sans APK, poursuis le nettoyage seul. Vérifie le
 studio.seeapps.home et la signature du fichier téléchargé sur l’ordinateur. Compare le
 SHA-256 du certificat du signataire à cette valeur :
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -78,4 +78,4 @@ Service du bouton Accueil
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versions sur GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versions sur GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

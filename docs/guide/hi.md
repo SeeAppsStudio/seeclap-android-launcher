@@ -7,7 +7,7 @@ SeeClap Launcher, Android TV या Google TV वाले टीवी और �
 कंप्यूटर और टीवी को एक ही वाई-फ़ाई से जोड़ें। कंप्यूटर पर Claude Code या Codex खोलें और उसे टर्मिनल इस्तेमाल करने की अनुमति दें। फिर यह संदेश पेस्ट करें।
 
 ```text
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 पर दिए निर्देशों के अनुसार मेरे टीवी के ऐप्स का कैश साफ़ करने में हर कदम पर मेरी मदद करो
 और फिर मुझे SeeClap Launcher इंस्टॉल करने का विकल्प दो।
 ```
@@ -18,8 +18,8 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 APK एक तैयार फ़ाइल है जिससे आप लॉन्चर सीधे टीवी पर इंस्टॉल कर सकते हैं।
 
-1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk)।
+1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)।
 2. फ़ाइल को पेन ड्राइव में कॉपी करें। पेन ड्राइव टीवी में लगाएँ और टीवी के फ़ाइल मैनेजर से फ़ाइल खोलें।
 3. अगर टीवी इंस्टॉल करने की अनुमति माँगे, तो अनुमति दें और इंस्टॉलेशन के बाद उसे बंद कर दें। **SeeClap Launcher** खोलें और स्क्रीन पर दिए निर्देशों का पालन करें।
 
-[रिमोट, सेटिंग्स और पुरानी होम स्क्रीन पर लौटने के बारे में विस्तृत गाइड पढ़ें](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/hi.md)
+[रिमोट, सेटिंग्स और पुरानी होम स्क्रीन पर लौटने के बारे में विस्तृत गाइड पढ़ें](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/hi.md)

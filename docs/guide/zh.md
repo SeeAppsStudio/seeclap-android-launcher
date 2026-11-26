@@ -8,7 +8,7 @@ SeeClap Launcher 是一款适用于 Android TV 和 Google TV 电视及机顶盒�
 
 ```text
 请按照
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 中的说明一步步帮我清理电视上的应用缓存，然后问我是否要安装 SeeClap Launcher。
 ```
 
@@ -18,8 +18,8 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 APK 是可以在电视上直接安装的文件。
 
-1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk)。
+1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)。
 2. 把文件复制到 U 盘，将 U 盘插入电视，用电视上的文件管理器打开文件。
 3. 如果电视提示需要安装权限，请临时允许，安装后再关闭该权限。打开 **SeeClap Launcher**，跟着屏幕上的提示完成设置。
 
-[查看详细手册，了解如何使用遥控器、调整设置或换回原来的主屏幕](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/zh.md)
+[查看详细手册，了解如何使用遥控器、调整设置或换回原来的主屏幕](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/zh.md)

@@ -17,7 +17,7 @@ jobs:
         with:
           packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
       - name: Textes des 12 langues à jour
-        run: python3 tools/strings/build.py && git diff --exit-code app/src/main/res
+        run: python3 tools/strings/build.py && git diff --exit-code tv/src/main/res
       - name: Compiler, tester et analyser les deux éditions
         run: >-
           ./gradlew :app:assembleSiteRelease :app:bundlePlayRelease

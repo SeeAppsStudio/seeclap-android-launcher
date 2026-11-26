@@ -41,7 +41,7 @@ adb -s SERIAL shell df -k /data
 studio.seeapps.home, и проверь подпись APK. Сравни отпечаток SHA-256 сертификата подписанта с
 этим значением:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -78,4 +78,4 @@ com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Выпуски на GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Выпуски на GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

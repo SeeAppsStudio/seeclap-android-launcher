@@ -40,7 +40,7 @@ utgåvan nedan. Om det saknas en APK, fortsätt enbart med cacherensningen. Kont
 datorn att paketet heter studio.seeapps.home och verifiera signaturen. Jämför SHA-256 för
 signerarens certifikat med detta värde:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -77,4 +77,4 @@ Tjänst för hemknappen
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Utgåvor på GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Utgåvor på GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

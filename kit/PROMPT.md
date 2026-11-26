@@ -40,7 +40,7 @@ there is no APK, continue with cache cleanup alone. Check the downloaded package
 studio.seeapps.home and verify the signature on my computer. Compare the signer certificate’s
 SHA-256 with this value:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -77,4 +77,4 @@ Home-button service
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub releases](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub releases](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

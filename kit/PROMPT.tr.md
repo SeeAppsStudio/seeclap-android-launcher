@@ -40,7 +40,7 @@ APK yoksa yalnızca önbellek temizliğiyle devam et. Bilgisayarımda paket adı
 studio.seeapps.home olduğunu ve imzanın geçerli olduğunu doğrula. İmzalayanın sertifikasına
 ait SHA-256 değerini şununla karşılaştır:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -77,4 +77,4 @@ Ana Ekran tuşu hizmeti
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub sürümleri](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub sürümleri](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

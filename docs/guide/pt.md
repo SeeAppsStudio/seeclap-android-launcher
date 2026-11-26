@@ -8,7 +8,7 @@ Liga o computador e a TV à mesma rede Wi-Fi. No computador, abre o Claude Code 
 
 ```text
 Segue as instruções de
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 para me guiares passo a passo, limpares as caches da minha TV
 e me propores instalar o SeeClap Launcher.
 ```
@@ -19,8 +19,8 @@ O assistente executa os comandos e tu confirmas a ligação na TV com o comando.
 
 O APK está pronto a instalar. Não precisas de compilar nada.
 
-1. [Transfere o SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Transfere o SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Copia-o para uma pen USB, liga-a à TV e abre o ficheiro com um gestor de ficheiros.
 3. Se o Android pedir autorização, permite a instalação e retira a permissão quando terminar. Abre o **SeeClap Launcher** e segue o assistente.
 
-[Guia detalhado do SeeClap Launcher](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/pt.md)
+[Guia detalhado do SeeClap Launcher](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/pt.md)

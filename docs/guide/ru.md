@@ -8,7 +8,7 @@ SeeClap Launcher — главный экран для телевизоров и 
 
 ```text
 Следуй инструкциям по ссылке
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 и помоги мне шаг за шагом очистить кеш приложений на телевизоре,
 а затем предложи установить SeeClap Launcher.
 ```
@@ -19,8 +19,8 @@ https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main
 
 APK — это готовый файл для установки лаунчера на телевизор.
 
-1. [Скачайте APK-файл SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Скачайте APK-файл SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Скопируйте его на флешку, подключите её к телевизору и откройте файл через файловый менеджер.
 3. Если телевизор запросит разрешение на установку, дайте его и отключите после установки. Откройте **SeeClap Launcher** и следуйте подсказкам на экране.
 
-[Подробное руководство по настройкам, пульту и восстановлению прежнего главного экрана](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/ru.md)
+[Подробное руководство по настройкам, пульту и восстановлению прежнего главного экрана](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/ru.md)

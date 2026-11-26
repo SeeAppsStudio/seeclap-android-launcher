@@ -15,7 +15,7 @@ Speak the owner's language. Do the computer work yourself. Give one remote-contr
 
 ## Clean and show the result
 
-Use the bundled `scripts/cache.py` with Python 3 and Platform-Tools. If you received this skill as a URL, get the [official SeeClap repository](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv) on the computer or download [cache.py](https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/scripts/cache.py) from it. Read the script locally before running it. Pass the full path to adb with `--adb` if needed.
+Use the bundled `scripts/cache.py` with Python 3 and Platform-Tools. If you received this skill as a URL, get the [official SeeClap repository](https://github.com/SeeAppsStudio/seeclap-android-launcher) on the computer or download [cache.py](https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/scripts/cache.py) from it. Read the script locally before running it. Pass the full path to adb with `--adb` if needed.
 
 ```sh
 python3 scripts/cache.py --serial SERIAL
@@ -26,7 +26,7 @@ Run these commands from the `skills/seeclap-tv` folder; for a standalone downloa
 
 ## Install the launcher if the owner chooses it
 
-For Android TV or Google TV running Android 7 or later, use the signed `seeclap-launcher-<code>.apk` asset from the [latest official release](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases). If there is no published APK, explain that installation is pending and finish the other requested work. Never substitute a debug build or another project's launcher.
+For Android TV or Google TV running Android 7 or later, use the signed `seeclap-launcher-<code>.apk` asset from the [latest official release](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases). If there is no published APK, explain that installation is pending and finish the other requested work. Never substitute a debug build or another project's launcher.
 
 On the computer, use Android SDK Build-Tools to run `aapt2 dump badging FILE.apk` and `apksigner verify --print-certs FILE.apk`. Require package `studio.seeapps.home`, successful signature verification, and the signer certificate SHA-256 `6b35301365629dc1f4ebdc6a77e19152dc90d059079b39c03572602001b9888e`. If the release lists a file checksum, verify that separately. Install with `adb -s SERIAL install -r FILE.apk` and check `adb -s SERIAL shell pm path studio.seeapps.home`. On a signature conflict preserve the installed app and its data. Guide the owner to launch SeeClap Launcher, choose their favorites and optionally choose Home or enable the Home button in Android's settings. Keep SeeClap first. The owner grants accessibility on the TV.
 

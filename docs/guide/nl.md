@@ -8,7 +8,7 @@ Verbind computer en tv met hetzelfde wifinetwerk. Open op de computer Claude Cod
 
 ```text
 Volg de instructies op
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 en begeleid me bij de stappen op mijn tv, leeg de caches van mijn apps
 en bied aan om SeeClap Launcher te installeren.
 ```
@@ -19,8 +19,8 @@ De assistent voert de opdrachten uit. Je bevestigt op de tv met de afstandsbedie
 
 Het installatiebestand is klaar voor gebruik. Je hoeft zelf niets te compileren.
 
-1. [Download SeeClap Launcher 1.0.0 voor je tv (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Download SeeClap Launcher 1.0.0 voor je tv (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Kopieer het naar een USB-stick. Steek de stick in de tv en open het bestand met de bestandsbeheerder.
 3. Vraagt Android om toestemming, geef die dan en trek die na de installatie weer in. Open **SeeClap Launcher** en volg de stappen op het scherm.
 
-[Uitgebreide handleiding en hulp](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/nl.md)
+[Uitgebreide handleiding en hulp](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/nl.md)

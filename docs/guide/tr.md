@@ -7,7 +7,7 @@ SeeClap Launcher, Android 7 veya daha yeni bir sürüm kullanan Android TV ya da
 Bilgisayarı ve televizyonu aynı Wi-Fi ağına bağla. Bilgisayarda terminale erişebilen Claude Code veya Codex’i aç ve şu cümleyi yapıştır.
 
 ```text
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 adresindeki yönergeleri izleyerek bana adım adım yol göster,
 televizyonumun önbelleklerini temizle
 ve SeeClap Launcher’ı yüklemeyi öner.
@@ -19,8 +19,8 @@ Asistan komutları bilgisayarda çalıştırır. Televizyonda bağlantı isteği
 
 APK yüklemeye hazır. Derleme yapman gerekmiyor.
 
-1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Dosyayı bir USB belleğe kopyala. Belleği TV’ye tak ve dosyayı bir dosya yöneticisiyle aç.
 3. Android yükleme izni isterse geçici olarak izin ver. Yükleme bittiğinde izni kaldır. **SeeClap Launcher**’ı aç ve ekrandaki adımları izle.
 
-[Kumanda, uygulamalar ve ana ekran hakkında ayrıntılı yardım](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/tr.md)
+[Kumanda, uygulamalar ve ana ekran hakkında ayrıntılı yardım](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/tr.md)

@@ -8,7 +8,7 @@ Conecta el ordenador y el televisor a la misma red Wi-Fi. En el ordenador, abre 
 
 ```text
 Sigue la guía de
-https://raw.githubusercontent.com/SeeAppsStudio/seeclap-launcher-android-tv/main/skills/seeclap-tv/SKILL.md
+https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
 para guiarme paso a paso, limpiar las cachés de mi televisor
 y ofrecerme instalar SeeClap Launcher.
 ```
@@ -19,8 +19,8 @@ El asistente ejecuta los comandos. Tú confirmas la conexión en el televisor co
 
 El APK está listo para instalar. No necesitas compilar nada.
 
-1. [Descarga SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Descarga SeeClap Launcher 1.0.0 (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
 2. Cópialo a una memoria USB, conéctala al televisor y abre el archivo con un gestor de archivos.
 3. Si Android pide permiso para instalarlo, concédelo y retíralo después de la instalación. Abre **SeeClap Launcher** y sigue el asistente.
 
-[Más ayuda sobre el mando, las apps y la pantalla de inicio](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/blob/main/docs/reference/es.md)
+[Más ayuda sobre el mando, las apps y la pantalla de inicio](https://github.com/SeeAppsStudio/seeclap-android-launcher/blob/main/docs/reference/es.md)

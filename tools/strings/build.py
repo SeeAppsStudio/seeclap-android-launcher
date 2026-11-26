@@ -13,7 +13,7 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-RES = os.path.join(HERE, "..", "..", "app", "src", "main", "res")
+RES = os.path.join(HERE, "..", "..", "tv", "src", "main", "res")
 # code de fichier -> dossier Android (l'anglais est la langue par défaut)
 LANGS = {"en": "values", "fr": "values-fr", "de": "values-de", "es": "values-es", "it": "values-it",
          "nl": "values-nl", "pt": "values-pt", "ru": "values-ru", "sv": "values-sv", "tr": "values-tr",

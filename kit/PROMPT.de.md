@@ -40,7 +40,7 @@ Veröffentlichung unten. Gibt es keine APK, fahre allein mit der Cache-Bereinigu
 auf meinem Computer den Paketnamen studio.seeapps.home und die Signatur. Vergleiche den
 SHA-256-Fingerabdruck des Signaturzertifikats mit diesem Wert:
 
-https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases
+https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
 
 apksigner verify --print-certs APP.apk
 
@@ -77,4 +77,4 @@ Dienst für die Home-Taste
 studio.seeapps.home/studio.seeapps.home.HomeGuardService
 ```
 
-[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versionen auf GitHub](https://github.com/SeeAppsStudio/seeclap-launcher-android-tv/releases)
+[CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versionen auf GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)
