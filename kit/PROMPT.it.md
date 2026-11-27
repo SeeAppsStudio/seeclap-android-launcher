@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Solo su mia richiesta, scarica l’APK del launcher dagli allegati della versione ufficiale
-indicata qui sotto. Se manca l’APK, prosegui solo con la pulizia. Sul computer controlla che
-il pacchetto sia studio.seeapps.home e verifica la firma. Confronta lo SHA-256 del
-certificato del firmatario con questo valore:
+4. Solo se te lo chiedo, scarica sul computer l’edizione completa ufficiale dal link qui sotto. Verifica che il pacchetto sia studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ posto. Proteggi questi pacchetti:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Lascia che scelga l’app Home nelle impostazioni Android. Se l’opzione manca, mostrami come aprire SeeClap Launcher dalle app della TV. Segnala eventuali blocchi, consegnami il registro e i passaggi per annullare le modifiche, quindi scollega ADB.
+6. Con l’edizione completa, lascia che attivi personalmente il servizio facoltativo del tasto Home nelle impostazioni di accessibilità della TV e che scelga la scorciatoia nelle impostazioni del telecomando.
+Lascia che scelga l’app Home nelle impostazioni Android. Se l’opzione manca, mostrami come aprire SeeClap Launcher dalle app della TV. Segnala eventuali blocchi, consegnami il registro e i passaggi per annullare le modifiche, quindi scollega ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versioni su GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

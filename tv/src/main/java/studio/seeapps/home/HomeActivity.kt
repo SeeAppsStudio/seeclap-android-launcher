@@ -361,7 +361,7 @@ class HomeActivity : Activity(), BackdropHost {
         super.onResume()
         applyTheme()
         Ui.reduceMotion = prefs.reduceMotion
-        if (!BuildConfig.SITE) HomeGuardService.reload()
+        if (BuildConfig.HOME_GUARD) HomeGuardService.reload()
         Installer.resumePending(this)
         home.onResumeHome()
         settings.refresh()
@@ -488,7 +488,7 @@ class HomeActivity : Activity(), BackdropHost {
         val s = setup ?: return
         setup = null
         prefs.setupDone = true
-        if (!BuildConfig.SITE) HomeGuardService.reload()
+        if (BuildConfig.HOME_GUARD) HomeGuardService.reload()
         root.removeView(s)
         top.visibility = View.VISIBLE
         top.alpha = 1f
@@ -505,7 +505,7 @@ class HomeActivity : Activity(), BackdropHost {
     private var otherGuardWarned = false
 
     fun requestGuard(onAccepted: () -> Unit = {}) {
-        if (BuildConfig.SITE) return
+        if (!BuildConfig.HOME_GUARD) return
         val disclosure = Sheet(this, getString(R.string.guard_name), getString(R.string.guard_description))
         disclosure.row(null, getString(R.string.cancel)) { disclosure.close() }
         disclosure.row("shield", getString(R.string.yes)) {

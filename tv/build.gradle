@@ -19,8 +19,8 @@ android {
         targetSdk 36
         versionCode 4
         versionName '1.0.1'
-        // Où l'accueil cherche ses propres mises à jour quand il ne vient pas de Google Play.
-        buildConfigField 'String', 'SELF_UPDATE_MANIFEST', '"https://downloads.seeapps.studio/seeclap-launcher/android/latest.json"'
+        buildConfigField 'boolean', 'HOME_GUARD', 'true'
+        buildConfigField 'String', 'SELF_UPDATE_DIRECTORY', '"seeclap-launcher/android"'
     }
 
     signingConfigs {
@@ -48,13 +48,22 @@ android {
         buildConfig true
     }
 
-    // site : APK du site (TV sans Google Play) — installe SeeClap et se met à jour depuis downloads.seeapps.studio.
-    // play : Google Play — n'installe rien lui-même (Google l'interdit), SeeClap vient de Google Play.
+    // site : APK léger pour Downloader et USB.
+    // full : APK complet pour l’installation assistée sur ordinateur, avec ses propres mises à jour.
+    // play : Google Play gère les installations et mises à jour.
     flavorDimensions 'store'
     productFlavors {
         site {
             dimension 'store'
             buildConfigField 'boolean', 'SITE', 'true'
+            buildConfigField 'boolean', 'HOME_GUARD', 'false'
+        }
+        full {
+            dimension 'store'
+            versionCode 5
+            versionName '1.0.2'
+            buildConfigField 'boolean', 'SITE', 'true'
+            buildConfigField 'String', 'SELF_UPDATE_DIRECTORY', '"seeclap-launcher/android/full"'
         }
         play {
             dimension 'store'

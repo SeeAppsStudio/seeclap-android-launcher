@@ -36,12 +36,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Download de APK van de launcher alleen op mijn verzoek en alleen uit de bestanden bij de
-officiële release hieronder. Staat er geen APK, ga dan alleen verder met de cache. Controleer
-op de computer of de pakketnaam studio.seeapps.home is en of de handtekening geldig is.
-Vergelijk de SHA-256 van het certificaat van de ondertekenaar met deze waarde:
+4. Download de officiële volledige editie alleen op mijn verzoek via de onderstaande link naar de computer. Controleer de pakketnaam studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -68,7 +65,8 @@ SeeClap als eerste tegel staan. Bescherm deze pakketten:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Laat mij de startapp kiezen in de Android-instellingen. Als die keuze ontbreekt, laat zien hoe ik SeeClap Launcher open vanuit de apps op mijn tv. Meld een installatieblokkade, geef mij het logboek en de stappen om wijzigingen terug te draaien en verbreek de ADB-verbinding.
+6. Laat mij in de volledige editie zelf de optionele Home-knopdienst inschakelen in de toegankelijkheidsinstellingen van de tv. Daarna kan ik in de afstandsbedieningsinstellingen een snelkoppeling kiezen.
+Laat mij de startapp kiezen in de Android-instellingen. Als die keuze ontbreekt, laat zien hoe ik SeeClap Launcher open vanuit de apps op mijn tv. Meld een installatieblokkade, geef mij het logboek en de stappen om wijzigingen terug te draaien en verbreek de ADB-verbinding.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versies op GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

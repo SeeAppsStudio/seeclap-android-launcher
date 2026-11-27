@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Only if I ask, get the launcher APK from the assets of the official release below. If
-there is no APK, continue with cache cleanup alone. Check the downloaded package is
-studio.seeapps.home and verify the signature on my computer. Compare the signer certificate’s
-SHA-256 with this value:
+4. Only if I ask, download the official complete edition from the URL below to the computer. Verify the package name is studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ first tile. Protect these packages:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Let me choose the Home app in Android settings. If the choice is unavailable, show me how to open SeeClap Launcher from the TV’s apps. Report any installation block. Give me the change log and undo steps, then disconnect ADB and show me how to revoke debugging access.
+6. With the complete edition, let me enable the optional Home-button service myself on the TV in Accessibility settings, then assign a shortcut in SeeClap Launcher’s Remote settings.
+Let me choose the Home app in Android settings. If the choice is unavailable, show me how to open SeeClap Launcher from the TV’s apps. Report any installation block. Give me the change log and undo steps, then disconnect ADB and show me how to revoke debugging access.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub releases](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

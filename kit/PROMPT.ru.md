@@ -36,12 +36,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Только по моей просьбе скачай APK лаунчера из файлов официального выпуска по адресу ниже.
-Если APK нет, продолжай только очистку кеша. На компьютере проверь, что имя пакета —
-studio.seeapps.home, и проверь подпись APK. Сравни отпечаток SHA-256 сертификата подписанта с
-этим значением:
+4. Только по моей просьбе скачай на компьютер официальную полную версию по ссылке ниже. Проверь, что имя пакета — studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -68,7 +65,8 @@ https://github.com/Gathin23/cleanyourtv
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Позволь мне выбрать главный экран в настройках Android. Если такого пункта нет, покажи, как открыть SeeClap Launcher из списка приложений телевизора. Сообщи о блокировке установки, дай журнал и инструкции по отмене изменений, затем отключи ADB.
+6. В полной версии я сам могу включить дополнительную службу кнопки «Домой» в специальных возможностях телевизора и выбрать горячую клавишу в настройках пульта лаунчера.
+Позволь мне выбрать главный экран в настройках Android. Если такого пункта нет, покажи, как открыть SeeClap Launcher из списка приложений телевизора. Сообщи о блокировке установки, дай журнал и инструкции по отмене изменений, затем отключи ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Выпуски на GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

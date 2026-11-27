@@ -2,6 +2,8 @@
 
 SeeClap Launcher bringt deine Lieblings-Apps auf den Startbildschirm deines Android TV oder Google TV (ab Android 7). Die erste Kachel ist immer für SeeClap reserviert.
 
+Für die Vollversion mit Home-Taste, Fernbedienungskürzel und optionaler gründlicher Reinigung empfehlen wir die Installation mit einem Assistenten. Downloader und USB verwenden die Lite-Version.
+
 ## 1. Den Fernseher mit einem Assistenten aufräumen (empfohlen)
 
 Verbinde Computer und Fernseher mit demselben WLAN. Öffne auf dem Computer Claude Code oder Codex mit Zugriff auf das Terminal. Kopiere diesen Satz in den Chat.

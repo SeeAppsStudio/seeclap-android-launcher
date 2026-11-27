@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. मेरे कहने पर ही नीचे दी गई आधिकारिक रिलीज़ के साथ जुड़ी फ़ाइलों से लॉन्चर का APK डाउनलोड
-करो। APK उपलब्ध न हो तो केवल कैश की सफ़ाई जारी रखो। कंप्यूटर पर जाँचो कि पैकेज का नाम
-studio.seeapps.home है और APK का हस्ताक्षर सही है। हस्ताक्षर करने वाले के प्रमाणपत्र का
-SHA-256 नीचे दिए मान से मिलाओ।
+4. मेरे कहने पर ही नीचे दिए गए लिंक से आधिकारिक पूर्ण संस्करण कंप्यूटर पर डाउनलोड करो। पैकेज का नाम studio.seeapps.home होना चाहिए।
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ SeeClap, उसके लॉन्चर, निर्माता की हो
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. मुझे Android सेटिंग में होम ऐप चुनने दो। अगर विकल्प नहीं है, तो बताओ कि टीवी की ऐप सूची से SeeClap Launcher कैसे खोलूँ। इंस्टॉल रुकने पर मुझे बताओ, बदलावों और उन्हें वापस लेने के चरणों का रिकॉर्ड दो, फिर ADB डिस्कनेक्ट करो।
+6. पूर्ण संस्करण में होम बटन की वैकल्पिक सेवा मुझे टीवी की सुलभता सेटिंग में खुद चालू करने दो। फिर मैं लॉन्चर की रिमोट सेटिंग में शॉर्टकट चुन सकता हूँ।
+मुझे Android सेटिंग में होम ऐप चुनने दो। अगर विकल्प नहीं है, तो बताओ कि टीवी की ऐप सूची से SeeClap Launcher कैसे खोलूँ। इंस्टॉल रुकने पर मुझे बताओ, बदलावों और उन्हें वापस लेने के चरणों का रिकॉर्ड दो, फिर ADB डिस्कनेक्ट करो।
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub पर रिलीज़](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

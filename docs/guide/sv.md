@@ -2,6 +2,8 @@
 
 SeeClap Launcher är en hemskärm för tv-apparater och boxar med Android TV eller Google TV (Android 7 eller senare). SeeClap har alltid den första rutan.
 
+Välj assisterad installation för den fullständiga versionen med hemknapp, fjärrgenväg och grundlig rensning på begäran. Downloader och USB använder den lätta versionen.
+
 ## 1. Rensa tv:n med en assistent (rekommenderas)
 
 Anslut datorn och tv:n till samma wifi. Öppna Claude Code eller Codex på datorn, ge assistenten tillgång till terminalen och klistra in det här meddelandet.

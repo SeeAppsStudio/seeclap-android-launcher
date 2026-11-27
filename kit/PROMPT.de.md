@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Nur auf meinen Wunsch: Lade die Launcher-APK aus den Anhängen der offiziellen
-Veröffentlichung unten. Gibt es keine APK, fahre allein mit der Cache-Bereinigung fort. Prüfe
-auf meinem Computer den Paketnamen studio.seeapps.home und die Signatur. Vergleiche den
-SHA-256-Fingerabdruck des Signaturzertifikats mit diesem Wert:
+4. Auf meinen Wunsch lade die offizielle Vollversion über den folgenden Link auf den Computer und prüfe, dass das Paket studio.seeapps.home heißt.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -66,7 +63,8 @@ SeeClap bleibt die erste Kachel. Schütze diese Pakete:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Die Start-App wähle ich in den Android-Einstellungen. Falls die Auswahl fehlt, zeige mir, wie ich SeeClap Launcher aus der App-Liste öffne. Melde Installationsblockaden, führe das Änderungsprotokoll mit Rückgängig-Schritten und trenne danach ADB.
+6. Bei der Vollversion aktiviere ich bei Bedarf den Dienst für die Home-Taste selbst am Fernseher unter Bedienungshilfen. Danach kann ich in der Start-App eine Fernbedienungstaste zuweisen.
+Die Start-App wähle ich in den Android-Einstellungen. Falls die Auswahl fehlt, zeige mir, wie ich SeeClap Launcher aus der App-Liste öffne. Melde Installationsblockaden, führe das Änderungsprotokoll mit Rückgängig-Schritten und trenne danach ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versionen auf GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

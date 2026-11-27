@@ -18,15 +18,20 @@ jobs:
           packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
       - name: Textes des 12 langues à jour
         run: python3 tools/strings/build.py && git diff --exit-code tv/src/main/res
-      - name: Compiler, tester et analyser les deux éditions
+      - name: Compiler, tester et analyser les trois éditions
         run: >-
-          ./gradlew :app:assembleSiteRelease :app:bundlePlayRelease
-          :app:testSiteDebugUnitTest :app:testPlayDebugUnitTest
-          :app:lintSiteRelease :app:lintPlayRelease --no-daemon
-      - name: Verify the downloaded edition has no accessibility service
+          ./gradlew :app:assembleSiteRelease :app:assembleFullRelease :app:bundlePlayRelease
+          :app:testSiteDebugUnitTest :app:testFullDebugUnitTest :app:testPlayDebugUnitTest
+          :app:lintSiteRelease :app:lintFullRelease :app:lintPlayRelease --no-daemon
+      - name: Vérifier les services déclarés par les APK
         run: |
           shopt -s nullglob
           apks=(tv/build/outputs/apk/site/release/*.apk)
           test "${#apks[@]}" -eq 1
           "$ANDROID_HOME/build-tools/36.0.0/aapt2" dump xmltree "${apks[0]}" --file AndroidManifest.xml > site-manifest.txt
           if grep -E 'BIND_ACCESSIBILITY_SERVICE|HomeGuardService' site-manifest.txt; then exit 1; fi
+          apks=(tv/build/outputs/apk/full/release/*.apk)
+          test "${#apks[@]}" -eq 1
+          "$ANDROID_HOME/build-tools/36.0.0/aapt2" dump xmltree "${apks[0]}" --file AndroidManifest.xml > full-manifest.txt
+          grep -F 'android.permission.BIND_ACCESSIBILITY_SERVICE' full-manifest.txt
+          grep -F 'studio.seeapps.home.HomeGuardService' full-manifest.txt
