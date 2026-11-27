@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Ana Sayfa düğmesi",
     "setup_home_ready": "Kumandanın Ana Sayfa düğmesi artık SeeClap Launcher'u açıyor.",
     "setup_home_try": "Dene: Ana Sayfa'ya bas.",
+    "setup_home_open_from_apps": "TV’niz ana ekran uygulamasını değiştirmenize izin vermiyorsa SeeClap Launcher’ı uygulamalar listesinden açın.",
     "setup_home_role": "Android hangi ana ekranı kullanacağını soracak: SeeClap Launcher'u seç.",
     "setup_home_guard": "Bu TV'de Ana Sayfa düğmesi Google'da kalıyor. Bir Android ayarı SeeClap Launcher'un onu geri almasını sağlar.",
     "setup_home_steps": "1.  “Erişilebilirliği aç”a bas.\n2.  “SeeClap Launcher – Ana Sayfa düğmesi”ni seç.\n3.  Aç: kendiliğinden buraya dönersin.",

@@ -67,14 +67,7 @@ posto. Proteggi questi pacchetti:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Lascia che scelga io la Home e attivi personalmente, se lo desidero, il servizio per il
-tasto Home in Accessibilità. Non modificare quelle impostazioni con comandi e non aggirare i
-controlli di sistema. Consegnami il registro e i passaggi per ripristinare le app,
-disattivare il servizio e tornare alla Home originale. Disconnetti ADB e mostrami come
-dissociare il computer, revocare le autorizzazioni di debug e spegnere il debug sulla TV.
-
-Servizio del tasto Home
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Lascia che scelga l’app Home nelle impostazioni Android. Se l’opzione manca, mostrami come aprire SeeClap Launcher dalle app della TV. Segnala eventuali blocchi, consegnami il registro e i passaggi per annullare le modifiche, quindi scollega ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versioni su GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

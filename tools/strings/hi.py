@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "होम बटन",
     "setup_home_ready": "रिमोट का होम बटन अब SeeClap Launcher खोलता है।",
     "setup_home_try": "आज़माएँ: होम दबाएँ।",
+    "setup_home_open_from_apps": "अगर आपका टीवी होम ऐप बदलने की अनुमति नहीं देता, तो अपने ऐप्स से SeeClap Launcher खोलें।",
     "setup_home_role": "Android पूछेगा कि कौन-सी होम स्क्रीन इस्तेमाल करनी है: SeeClap Launcher चुनें।",
     "setup_home_guard": "इस टीवी पर होम बटन Google के पास रहता है। Android की एक सेटिंग से SeeClap Launcher इसे वापस ले सकता है।",
     "setup_home_steps": "1.  “सुलभता खोलें” दबाएँ।\n2.  “SeeClap Launcher – होम बटन” चुनें।\n3.  इसे चालू करें: आप अपने आप यहाँ लौट आएँगे।",

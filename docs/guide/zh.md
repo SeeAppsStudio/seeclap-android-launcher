@@ -30,7 +30,7 @@ APK 文件下载直链 · [downloads.seeapps.studio/launcher/tv.apk](https://dow
 
 APK 是可以在电视上直接安装的文件。
 
-1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)。
+1. [下载 SeeClap Launcher 1.0.1 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk)。
 2. 把文件复制到 U 盘，将 U 盘插入电视，用电视上的文件管理器打开文件。
 3. 如果电视提示需要安装权限，请临时允许，安装后再关闭该权限。打开 **SeeClap Launcher**，跟着屏幕上的提示完成设置。
 

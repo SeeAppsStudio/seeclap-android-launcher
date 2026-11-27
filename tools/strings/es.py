@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "El botón Inicio",
     "setup_home_ready": "El botón Inicio del mando ahora abre SeeClap Launcher.",
     "setup_home_try": "Pruébalo: pulsa Inicio.",
+    "setup_home_open_from_apps": "Si tu televisor no permite cambiar la app de inicio, abre SeeClap Launcher desde tus aplicaciones.",
     "setup_home_role": "Android te preguntará qué inicio usar: elige SeeClap Launcher.",
     "setup_home_guard": "En esta TV, Google se queda con el botón Inicio. Un ajuste de Android permite que SeeClap Launcher lo recupere.",
     "setup_home_steps": "1.  Pulsa «Abrir Accesibilidad».\n2.  Elige «SeeClap Launcher – botón Inicio».\n3.  Actívalo: volverás aquí solo.",

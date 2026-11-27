@@ -66,15 +66,7 @@ SeeClap bleibt die erste Kachel. Schütze diese Pakete:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Den Standardstartbildschirm wähle ich selbst. Den optionalen Dienst für die Home-Taste
-aktiviere ich selbst in den Bedienungshilfen. Ändere dort nichts per Befehl und umgehe keine
-Systemkontrolle. Gib mir das Protokoll und die Schritte zum Wiederaktivieren der Apps,
-Abschalten des Dienstes und Wiederherstellen des ursprünglichen Startbildschirms. Trenne ADB.
-Zeige mir, wie ich den Computer aus den gekoppelten Geräten entferne, Debugging-Freigaben
-widerrufe und Debugging am Fernseher ausschalte.
-
-Dienst für die Home-Taste
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Die Start-App wähle ich in den Android-Einstellungen. Falls die Auswahl fehlt, zeige mir, wie ich SeeClap Launcher aus der App-Liste öffne. Melde Installationsblockaden, führe das Änderungsprotokoll mit Rückgängig-Schritten und trenne danach ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versionen auf GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

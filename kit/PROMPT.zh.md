@@ -71,14 +71,7 @@ https://github.com/Gathin23/cleanyourtv
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. 由我自行选择主屏幕。
-如需主页键服务，也由我在无障碍设置中亲自开启。
-不要通过命令直接改写无障碍设置，也不要绕过系统检查。
-把变更记录交给我，说明如何恢复每个应用、关闭这项服务并切换回厂商主屏幕。
-断开 ADB 连接，并指导我在电视上取消与电脑的配对、撤销调试授权和关闭调试。
-
-主页键服务
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. 由我在 Android 设置中选择主屏幕应用。如果没有此选项，请告诉我如何从电视应用列表打开 SeeClap Launcher。若安装被拦截，请报告结果，提供变更记录和撤销步骤，然后断开 ADB。
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub 发布版本](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

@@ -68,14 +68,7 @@ SeeClap als eerste tegel staan. Bescherm deze pakketten:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Laat mij zelf het startscherm kiezen en desgewenst de dienst voor de Home-knop aanzetten
-bij Toegankelijkheid. Wijzig daar niets via opdrachten en omzeil geen systeembeveiliging.
-Geef me het logboek en de stappen om de apps te herstellen, de dienst uit te zetten en het
-oorspronkelijke startscherm terug te kiezen. Verbreek ADB en laat zien hoe ik de computer
-vergeet, de machtigingen voor foutopsporing intrek en foutopsporing op de tv uitzet.
-
-Dienst voor de Home-knop
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Laat mij de startapp kiezen in de Android-instellingen. Als die keuze ontbreekt, laat zien hoe ik SeeClap Launcher open vanuit de apps op mijn tv. Meld een installatieblokkade, geef mij het logboek en de stappen om wijzigingen terug te draaien en verbreek de ADB-verbinding.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versies op GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

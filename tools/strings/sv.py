@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Hemknappen",
     "setup_home_ready": "Fjärrkontrollens hemknapp öppnar nu SeeClap Launcher.",
     "setup_home_try": "Prova: tryck på Hem.",
+    "setup_home_open_from_apps": "Om tv:n inte låter dig ändra startapp öppnar du SeeClap Launcher från dina appar.",
     "setup_home_role": "Android frågar vilken hemskärm du vill använda: välj SeeClap Launcher.",
     "setup_home_guard": "På den här tv:n behåller Google hemknappen. En Android-inställning låter SeeClap Launcher ta tillbaka den.",
     "setup_home_steps": "1.  Tryck på ”Öppna Tillgänglighet”.\n2.  Välj ”SeeClap Launcher – hemknappen”.\n3.  Slå på det: du kommer tillbaka hit av dig själv.",

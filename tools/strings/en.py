@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "The Home button",
     "setup_home_ready": "The remote's Home button now opens SeeClap Launcher.",
     "setup_home_try": "Try it: press Home.",
+    "setup_home_open_from_apps": "If your TV cannot change its Home app, open SeeClap Launcher from your apps.",
     "setup_home_role": "Android will ask which Home screen to use: choose SeeClap Launcher.",
     "setup_home_guard": "On this TV, Google keeps the Home button. An Android setting lets SeeClap Launcher take it back.",
     "setup_home_steps": "1.  Press “Open Accessibility”.\n2.  Choose “SeeClap Launcher – Home button”.\n3.  Turn it on: you come back here on your own.",

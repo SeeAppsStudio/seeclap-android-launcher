@@ -67,14 +67,7 @@ SeeClap som första ruta. Skydda de här paketen:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Låt mig själv välja startskärm och vid behov aktivera tjänsten för hemknappen under
-Tillgänglighet. Ändra aldrig dessa inställningar med kommandon och kringgå inga
-systemkontroller. Ge mig ändringsloggen och stegen för att återställa apparna, stänga av
-tjänsten och återgå till den ursprungliga startskärmen. Koppla från ADB och visa hur jag tar
-bort datorns parkoppling, återkallar behörigheterna och stänger av felsökningen på tv:n.
-
-Tjänst för hemknappen
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Låt mig välja hemapp i Androids inställningar. Om valet saknas, visa hur jag öppnar SeeClap Launcher bland tv:ns appar. Rapportera eventuella installationsblockeringar, ge mig ändringsloggen och stegen för att ångra ändringar och koppla sedan från ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Utgåvor på GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

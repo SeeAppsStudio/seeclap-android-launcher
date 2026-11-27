@@ -31,7 +31,7 @@ Direkte Adresse der APK-Datei · [downloads.seeapps.studio/launcher/tv.apk](http
 
 Die Installationsdatei ist fertig. Du musst nichts selbst kompilieren.
 
-1. [SeeClap Launcher 1.0.0 für deinen Fernseher herunterladen (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [SeeClap Launcher 1.0.1 für deinen Fernseher herunterladen (APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk).
 2. Kopiere sie auf einen USB-Stick. Stecke ihn in den Fernseher und öffne die Datei dort mit dem Dateimanager.
 3. Falls Android nachfragt, erlaube die Installation und entziehe diese Berechtigung anschließend wieder. Öffne **SeeClap Launcher** und folge den Schritten auf dem Bildschirm.
 

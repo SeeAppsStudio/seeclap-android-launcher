@@ -23,3 +23,10 @@ jobs:
           ./gradlew :app:assembleSiteRelease :app:bundlePlayRelease
           :app:testSiteDebugUnitTest :app:testPlayDebugUnitTest
           :app:lintSiteRelease :app:lintPlayRelease --no-daemon
+      - name: Verify the downloaded edition has no accessibility service
+        run: |
+          shopt -s nullglob
+          apks=(tv/build/outputs/apk/site/release/*.apk)
+          test "${#apks[@]}" -eq 1
+          "$ANDROID_HOME/build-tools/36.0.0/aapt2" dump xmltree "${apks[0]}" --file AndroidManifest.xml > site-manifest.txt
+          if grep -E 'BIND_ACCESSIBILITY_SERVICE|HomeGuardService' site-manifest.txt; then exit 1; fi

@@ -30,7 +30,7 @@ APK फ़ाइल का सीधा पता · [downloads.seeapps.studio/l
 
 APK एक तैयार फ़ाइल है जिससे आप लॉन्चर सीधे टीवी पर इंस्टॉल कर सकते हैं।
 
-1. [SeeClap Launcher 1.0.0 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)।
+1. [SeeClap Launcher 1.0.1 का APK डाउनलोड करें](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk)।
 2. फ़ाइल को पेन ड्राइव में कॉपी करें। पेन ड्राइव टीवी में लगाएँ और टीवी के फ़ाइल मैनेजर से फ़ाइल खोलें।
 3. अगर टीवी इंस्टॉल करने की अनुमति माँगे, तो अनुमति दें और इंस्टॉलेशन के बाद उसे बंद कर दें। **SeeClap Launcher** खोलें और स्क्रीन पर दिए निर्देशों का पालन करें।
 

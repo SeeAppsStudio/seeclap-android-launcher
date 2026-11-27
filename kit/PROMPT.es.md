@@ -69,15 +69,7 @@ la primera posición. Protege estos paquetes:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Déjame elegir la pantalla de inicio y activar personalmente, si quiero, el servicio del
-botón Inicio en Accesibilidad. No cambies esos ajustes mediante órdenes ni eludas controles.
-Entrégame el registro, las instrucciones para restaurar cada aplicación, desactivar el
-servicio y recuperar el inicio del fabricante. Desconecta ADB y muéstrame cómo olvidar el
-ordenador, revocar las autorizaciones de depuración y desactivar la depuración en el
-televisor.
-
-Servicio del botón Inicio
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Deja que elija la app de inicio en los ajustes de Android. Si no aparece la opción, muéstrame cómo abrir SeeClap Launcher desde las apps del televisor. Informa de cualquier bloqueo de instalación, dame el registro y los pasos para deshacer los cambios, y desconecta ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versiones en GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

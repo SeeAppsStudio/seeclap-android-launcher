@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Die Home-Taste",
     "setup_home_ready": "Die Home-Taste der Fernbedienung öffnet jetzt SeeClap Launcher.",
     "setup_home_try": "Probier es: Drücke Home.",
+    "setup_home_open_from_apps": "Wenn Ihr Fernseher keinen Wechsel der Start-App erlaubt, öffnen Sie SeeClap Launcher in der App-Liste.",
     "setup_home_role": "Android fragt dich, welchen Startbildschirm du nutzen willst: Wähle SeeClap Launcher.",
     "setup_home_guard": "Auf diesem Fernseher behält Google die Home-Taste. Eine Android-Einstellung gibt sie SeeClap Launcher zurück.",
     "setup_home_steps": "1.  Drücke „Bedienungshilfen öffnen“.\n2.  Wähle „SeeClap Launcher – Home-Taste“.\n3.  Schalte es ein: Du kommst von selbst hierher zurück.",

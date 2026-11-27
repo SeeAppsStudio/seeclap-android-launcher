@@ -201,6 +201,7 @@
     <string name="setup_home_title">De Home-knop</string>
     <string name="setup_home_ready">De Home-knop van de afstandsbediening opent nu SeeClap Launcher.</string>
     <string name="setup_home_try">Probeer het: druk op Home.</string>
+    <string name="setup_home_open_from_apps">Als je tv de startapp niet kan wijzigen, open je SeeClap Launcher vanuit je apps.</string>
     <string name="setup_home_role">Android vraagt welk beginscherm je wilt gebruiken: kies SeeClap Launcher.</string>
     <string name="setup_home_guard">Op deze tv houdt Google de Home-knop. Met een Android-instelling neemt SeeClap Launcher hem over.</string>
     <string name="setup_home_steps">1.  Druk op ‘Toegankelijkheid openen’.\n2.  Kies ‘SeeClap Launcher – Home-knop’.\n3.  Zet het aan: je komt vanzelf hier terug.</string>

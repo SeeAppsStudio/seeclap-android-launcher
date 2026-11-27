@@ -31,7 +31,7 @@ Direktadress till APK-filen · [downloads.seeapps.studio/launcher/tv.apk](https:
 
 APK-filen är en färdig installationsfil för tv:n.
 
-1. [Ladda ner APK-filen för SeeClap Launcher 1.0.0](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [Ladda ner APK-filen för SeeClap Launcher 1.0.1](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk).
 2. Kopiera filen till ett USB-minne, sätt det i tv:n och öppna filen med tv:ns filhanterare.
 3. Om tv:n ber om tillstånd att installera appen, ge tillståndet och stäng av det igen efter installationen. Öppna **SeeClap Launcher** och följ guiden på skärmen.
 

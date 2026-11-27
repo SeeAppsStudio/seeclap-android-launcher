@@ -67,14 +67,7 @@ first tile. Protect these packages:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Let me choose Home and enable the optional Home-button service in Accessibility myself.
-Never change accessibility settings directly or bypass system controls. Give me the change
-log and the steps to restore each app, turn off that service and select the original Home
-app. Disconnect ADB and show me how to forget this computer, revoke debugging authorizations
-and switch debugging off on my TV.
-
-Home-button service
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Let me choose the Home app in Android settings. If the choice is unavailable, show me how to open SeeClap Launcher from the TV’s apps. Report any installation block. Give me the change log and undo steps, then disconnect ADB and show me how to revoke debugging access.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub releases](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

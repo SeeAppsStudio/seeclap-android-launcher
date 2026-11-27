@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Кнопка «Домой»",
     "setup_home_ready": "Кнопка «Домой» на пульте теперь открывает SeeClap Launcher.",
     "setup_home_try": "Попробуйте: нажмите «Домой».",
+    "setup_home_open_from_apps": "Если телевизор не позволяет сменить главный экран, откройте SeeClap Launcher из списка приложений.",
     "setup_home_role": "Android спросит, какой главный экран использовать: выберите SeeClap Launcher.",
     "setup_home_guard": "На этом телевизоре кнопку «Домой» держит Google. Настройка Android позволяет SeeClap Launcher забрать её.",
     "setup_home_steps": "1.  Нажмите «Открыть спец. возможности».\n2.  Выберите «SeeClap Launcher – кнопка «Домой»».\n3.  Включите: вы вернётесь сюда автоматически.",
