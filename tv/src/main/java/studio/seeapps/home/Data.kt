@@ -259,24 +259,43 @@ internal data class ProgramSource(val pkg: String, val legacy: Boolean)
 
 object Programs {
 
+    private const val DEBUG_HOME_SHA256 = "8d7ac536d36b7647a40b3c08ddbc8968930c74b66ed0535924131919dd3a03be"
+
     internal fun source(context: Context, pkg: String): ProgramSource? {
         if (!SeeClap.isInstalled(context, pkg)) return null
         val pm = context.packageManager
-        val direct = if (SeeClap.isSeeClap(pkg)) pm.resolveContentProvider("$pkg.home", PackageManager.MATCH_DISABLED_COMPONENTS) else null
-
-        val incompatiblePlayCopy = direct?.packageName == pkg && pkg == SeeClap.PKG &&
-            pm.checkSignatures(context.packageName, pkg) == PackageManager.SIGNATURE_NO_MATCH &&
-            SeeClap.versionCode(context, pkg) == 163L && SeeClap.installerOf(context, pkg) == SeeClap.PLAY_STORE
-        return source(pkg, direct?.packageName, android.os.Build.VERSION.SDK_INT, incompatiblePlayCopy) {
+        val direct = if (SeeClap.isSeeClap(pkg)) pm.resolveContentProvider("$pkg.home", 0) else null
+        return source(pkg, direct?.packageName, android.os.Build.VERSION.SDK_INT, canReadDirect = {
+            direct?.exported == true && (
+                pm.checkSignatures(context.packageName, pkg) == PackageManager.SIGNATURE_MATCH ||
+                    (direct.applicationInfo.flags and ApplicationInfo.FLAG_DEBUGGABLE != 0 &&
+                        hasDebugHomeCertificate(pm, context.packageName))
+                )
+        }) {
             pm.resolveContentProvider(android.media.tv.TvContract.AUTHORITY, 0) != null &&
                 runCatching { pm.getPermissionInfo(TvListings.PERMISSION, 0) }.isSuccess
         }
     }
 
-    internal fun source(pkg: String, directOwner: String?, sdk: Int, incompatiblePlayCopy: Boolean = false, hasTvListings: () -> Boolean): ProgramSource? {
+    private fun hasDebugHomeCertificate(pm: PackageManager, pkg: String): Boolean = runCatching {
+        val digest = DEBUG_HOME_SHA256.chunked(2).map { it.toInt(16).toByte() }.toByteArray()
+        if (android.os.Build.VERSION.SDK_INT >= 28) {
+            pm.hasSigningCertificate(pkg, digest, PackageManager.CERT_INPUT_SHA256)
+        } else {
+            @Suppress("DEPRECATION")
+            val signatures = pm.getPackageInfo(pkg, PackageManager.GET_SIGNATURES).signatures.orEmpty()
+            val sha256 = MessageDigest.getInstance("SHA-256")
+            signatures.isNotEmpty() && signatures.all { sha256.digest(it.toByteArray()).contentEquals(digest) }
+        }
+    }.getOrDefault(false)
+
+    internal fun source(
+        pkg: String, directOwner: String?, sdk: Int,
+        canReadDirect: () -> Boolean = { false }, hasTvListings: () -> Boolean,
+    ): ProgramSource? {
         if (SeeClap.isSeeClap(pkg) && directOwner != null) {
             if (directOwner != pkg) return null
-            if (!incompatiblePlayCopy) return ProgramSource(pkg, false)
+            if (canReadDirect()) return ProgramSource(pkg, false)
         }
         return if (sdk >= 26 && pkg != SeeClap.PKG_AMAZON && hasTvListings()) ProgramSource(pkg, true) else null
     }
