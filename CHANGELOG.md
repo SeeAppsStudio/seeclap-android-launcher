@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Prefer SeeClap’s direct program feed when available. Fall back to Android TV recommendations regardless of the installed SeeClap version.
+
 ## 1.0.0
 
 - SeeClap stays in the first tile. Choose up to five other favorites, or use the larger five-tile layout.
