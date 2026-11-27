@@ -109,9 +109,10 @@ object Installer {
         val app = context.applicationContext
         if (!BuildConfig.SITE) return
         runFlow(app, app.packageName, quiet = !install) {
-            val r = fetch(BuildConfig.SELF_UPDATE_MANIFEST)
+            val channel = "${SeeClap.SITE_ORIGIN}/${BuildConfig.SELF_UPDATE_DIRECTORY}"
+            val r = fetch("$channel/latest.json")
             if (r.packageName != app.packageName || r.versionCode <= BuildConfig.VERSION_CODE) { post(app.packageName, State.UpToDate); return@runFlow }
-            checkUrl(r, "${SeeClap.SITE_ORIGIN}/seeclap-launcher/android/seeclap-launcher-${r.versionCode}.apk", app.packageName)
+            checkUrl(r, "$channel/seeclap-launcher-${r.versionCode}.apk", app.packageName)
 
             val mine = certificates(app.packageManager.getPackageInfo(app.packageName, signingFlags()))
             if (!verifySignature(r.payload, r.signature, mine)) throw Refused(R.string.install_failed_signature)

@@ -2,6 +2,8 @@
 
 SeeClap Launcher rassemble vos applications favorites sur l’accueil de votre Android TV ou Google TV (Android 7 ou plus récent). SeeClap occupe toujours la première tuile.
 
+Nous recommandons l’installation assistée pour obtenir l’édition complète avec le bouton Accueil, le raccourci télécommande et le nettoyage approfondi sur demande. Downloader et la clé USB utilisent l’édition légère.
+
 ## 1. Nettoyer la TV avec un assistant (recommandé)
 
 Connectez l’ordinateur et la TV au même Wi-Fi. Sur l’ordinateur, ouvrez Claude Code ou Codex avec accès au terminal. Copiez cette phrase dans la conversation.

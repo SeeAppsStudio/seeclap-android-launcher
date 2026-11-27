@@ -2,6 +2,8 @@
 
 SeeClap Launcher 是一款适用于 Android TV 和 Google TV 电视及机顶盒的主屏幕应用，需要 Android 7 或更高版本。主屏幕上的第一张卡片始终是 SeeClap。
 
+如需主页按钮、遥控器快捷键和按需深度清理，建议让助手安装完整版。Downloader 和 USB 使用轻量版。
+
 ## 1. 让助手帮你清理电视（推荐）
 
 将电脑和电视连到同一个 Wi-Fi。在电脑上打开 Claude Code 或 Codex，允许它使用终端，然后把下面这句话发给它。

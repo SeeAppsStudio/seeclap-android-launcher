@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Bara om jag ber om det: hämta startappens APK bland filerna som hör till den officiella
-utgåvan nedan. Om det saknas en APK, fortsätt enbart med cacherensningen. Kontrollera på
-datorn att paketet heter studio.seeapps.home och verifiera signaturen. Jämför SHA-256 för
-signerarens certifikat med detta värde:
+4. Ladda endast på min begäran ned den officiella fullständiga versionen via länken nedan till datorn. Kontrollera att paketnamnet är studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ SeeClap som första ruta. Skydda de här paketen:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Låt mig välja hemapp i Androids inställningar. Om valet saknas, visa hur jag öppnar SeeClap Launcher bland tv:ns appar. Rapportera eventuella installationsblockeringar, ge mig ändringsloggen och stegen för att ångra ändringar och koppla sedan från ADB.
+6. I den fullständiga versionen kan jag själv slå på den valfria hemknappstjänsten i tv:ns tillgänglighetsinställningar och välja ett snabbkommando i startappens fjärrkontrollinställningar.
+Låt mig välja hemapp i Androids inställningar. Om valet saknas, visa hur jag öppnar SeeClap Launcher bland tv:ns appar. Rapportera eventuella installationsblockeringar, ge mig ändringsloggen och stegen för att ångra ändringar och koppla sedan från ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Utgåvor på GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

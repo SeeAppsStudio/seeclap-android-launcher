@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 · Complete edition
+
+- Install the complete signed APK with ADB from a computer. The optional Home-button service and remote shortcut are available in this edition.
+- The light APK remains the Downloader and USB edition. The two editions check separate update channels.
+
 ## 1.0.1
 
 - The downloadable APK uses Android’s default Home setting and omits the accessibility service. Open it from your apps if the TV does not offer a Home app choice.

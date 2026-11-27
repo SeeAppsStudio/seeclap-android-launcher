@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Só se eu pedir, transfere o APK do launcher a partir dos ficheiros anexos à versão oficial
-abaixo. Se não houver APK, continua apenas com a limpeza. No computador, confirma o nome do
-pacote studio.seeapps.home e verifica a assinatura. Compara o SHA-256 do certificado do
-signatário com este valor:
+4. Só se eu pedir, transfere para o computador a edição completa oficial a partir da ligação abaixo. Confirma o nome do pacote studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ SeeClap na primeira posição. Protege estes pacotes:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Deixa-me escolher a app de início nas definições do Android. Se a opção não estiver disponível, mostra-me como abrir o SeeClap Launcher a partir das aplicações da TV. Comunica qualquer bloqueio de instalação, entrega-me o registo e os passos para reverter as alterações e desliga o ADB.
+6. Com a edição completa, deixa-me ativar pessoalmente o serviço opcional do botão Início na acessibilidade da TV e escolher um atalho nas definições de comando.
+Deixa-me escolher a app de início nas definições do Android. Se a opção não estiver disponível, mostra-me como abrir o SeeClap Launcher a partir das aplicações da TV. Comunica qualquer bloqueio de instalação, entrega-me o registo e os passos para reverter as alterações e desliga o ADB.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versões no GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

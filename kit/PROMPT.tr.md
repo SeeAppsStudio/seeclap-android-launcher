@@ -35,12 +35,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Yalnızca istersem aşağıdaki resmî sürümün ekli dosyalarından başlatıcının APK’sını indir.
-APK yoksa yalnızca önbellek temizliğiyle devam et. Bilgisayarımda paket adının
-studio.seeapps.home olduğunu ve imzanın geçerli olduğunu doğrula. İmzalayanın sertifikasına
-ait SHA-256 değerini şununla karşılaştır:
+4. Yalnızca istersem aşağıdaki bağlantıdan resmî tam sürümü bilgisayara indir. Paket adının studio.seeapps.home olduğunu doğrula.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -67,7 +64,8 @@ kalsın. Şu paketleri koru:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Android ayarlarında ana ekran uygulamasını benim seçmeme izin ver. Bu seçenek yoksa TV’nin uygulama listesinden SeeClap Launcher’ı nasıl açacağımı göster. Kurulum engelini bildir, değişiklik günlüğünü ve geri alma adımlarını ver, ardından ADB bağlantısını kes.
+6. Tam sürümde isteğe bağlı Ana Ekran düğmesi hizmetini TV’nin erişilebilirlik ayarlarında kendim açayım. Sonra başlatıcının kumanda ayarlarından kısayol seçebilirim.
+Android ayarlarında ana ekran uygulamasını benim seçmeme izin ver. Bu seçenek yoksa TV’nin uygulama listesinden SeeClap Launcher’ı nasıl açacağımı göster. Kurulum engelini bildir, değişiklik günlüğünü ve geri alma adımlarını ver, ardından ADB bağlantısını kes.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub sürümleri](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

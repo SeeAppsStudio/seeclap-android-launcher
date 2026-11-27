@@ -2,6 +2,8 @@
 
 SeeClap Launcher zet je favoriete apps op het beginscherm van je Android TV of Google TV (Android 7 of hoger). SeeClap is altijd de eerste tegel.
 
+Gebruik de begeleide installatie voor de volledige editie met Home-knop, afstandsbedieningssnelkoppeling en optionele grondige opruiming. Downloader en USB gebruiken de lichte editie.
+
 ## 1. Je tv opruimen met een assistent (aanbevolen)
 
 Verbind computer en tv met hetzelfde wifinetwerk. Open op de computer Claude Code of Codex met toegang tot de terminal. Plak dit in de chat.

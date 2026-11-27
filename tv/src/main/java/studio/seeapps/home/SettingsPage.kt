@@ -69,7 +69,7 @@ class SettingsPage(private val act: HomeActivity) : FrameLayout(act), Page {
         buildList {
             add(Line("appearance", s(R.string.appearance), s(R.string.appearance_desc), true, { themeLabel(prefs.theme) }) { push(appearanceScreen()) })
             add(Line("favorites", s(R.string.favorites), s(R.string.favorites_desc), true, { "${Apps.favorites(act).size} / ${prefs.favCount}" }) { push(favoritesScreen()) })
-            if (!BuildConfig.SITE) add(Line("remote", s(R.string.remote), s(R.string.remote_desc), true, { keyValue() }) { push(remoteScreen()) })
+            if (BuildConfig.HOME_GUARD) add(Line("remote", s(R.string.remote), s(R.string.remote_desc), true, { keyValue() }) { push(remoteScreen()) })
             add(Line("home", s(R.string.home_button), s(R.string.home_button_desc), true, { homeValue() }) { push(homeScreen()) })
             add(Line("clean", s(R.string.clean), s(R.string.clean_desc), true, { act.getString(R.string.free_space, Formatter.formatShortFileSize(act, Cleaner.freeBytes())) }) { push(cleanScreen()) })
             add(Line("seeclap", "SeeClap", s(R.string.seeclap_desc), true, { seeclapValue() }) { push(seeclapScreen()) })
@@ -148,7 +148,7 @@ class SettingsPage(private val act: HomeActivity) : FrameLayout(act), Page {
         val items = arrayListOf<Item>(
             Line("home", s(R.string.home_status), s(R.string.home_status_desc), true, { homeValue() }) { activateHome() },
         )
-        if (!BuildConfig.SITE) {
+        if (BuildConfig.HOME_GUARD) {
             items += Line("motion", s(R.string.guard_pause), s(R.string.guard_pause_desc), false, { yes(!prefs.guardOn) }) {
                 prefs.guardOn = !prefs.guardOn
                 HomeGuardService.reload()
@@ -281,7 +281,7 @@ class SettingsPage(private val act: HomeActivity) : FrameLayout(act), Page {
         when {
             HomeButton.isDefault(act) -> act.toast(s(R.string.home_default))
             HomeButton.canAskRole(act) -> if (!HomeButton.askRole(act, 41)) HomeButton.openHomeSettings(act)
-            BuildConfig.SITE -> if (!HomeButton.openHomeSettings(act)) act.toast(s(R.string.setup_home_open_from_apps))
+            !BuildConfig.HOME_GUARD -> if (!HomeButton.openHomeSettings(act)) act.toast(s(R.string.setup_home_open_from_apps))
             else -> act.requestGuard()
         }
     }
@@ -620,7 +620,7 @@ class DeepClean(private val act: HomeActivity) {
             sheet.row("trash", s(R.string.plan_caches), s(if (caches) R.string.yes else R.string.no)) { caches = !caches; it.valueView.text = s(if (caches) R.string.yes else R.string.no) }
             sheet.row("shield", s(R.string.plan_telemetry), s(if (telemetry) R.string.yes else R.string.no)) { telemetry = !telemetry; it.valueView.text = s(if (telemetry) R.string.yes else R.string.no) }
             sheet.row("motion", s(R.string.plan_faster), s(if (faster) R.string.yes else R.string.no)) { faster = !faster; it.valueView.text = s(if (faster) R.string.yes else R.string.no) }
-            if (!BuildConfig.SITE && !HomeButton.isDefault(act) && !HomeButton.guardEnabled(act)) {
+            if (BuildConfig.HOME_GUARD && !HomeButton.isDefault(act) && !HomeButton.guardEnabled(act)) {
                 sheet.row("home", s(R.string.plan_guard), s(if (guard) R.string.yes else R.string.no)) { guard = !guard; it.valueView.text = s(if (guard) R.string.yes else R.string.no) }
             }
             sheet.row("tv", s(R.string.plan_preinstalled), chosen.size.toString(), chevron = true) {

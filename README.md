@@ -8,24 +8,26 @@ The [TV edition](tv/) brings your favorite apps together on Android TV or Google
 
 *Home screen illustration. The program and all apps except SeeClap are fictional.*
 
-## 1. Clean up my TV with an assistant · Recommended
+## 1. Install the complete edition with an assistant · Recommended
 
 On a computer using the same Wi-Fi as your TV, open Claude Code or Codex with terminal access. Paste this message.
 
 ```text
 Follow https://raw.githubusercontent.com/SeeAppsStudio/seeclap-android-launcher/main/skills/seeclap-tv/SKILL.md
-to guide me through clearing my TV’s app caches and offer to install SeeClap Launcher.
+to install the complete SeeClap Launcher on my TV and offer a deeper clean-up.
 ```
 
-The assistant runs the commands and shows how much space was freed. You use the remote to approve the connection. Your apps and sign-ins stay in place. You choose whether to install the launcher or turn off any apps.
+The assistant verifies the signed APK and installs it from your computer after you approve the connection and installation. The complete edition can handle the Home button on supported TVs and assign a remote shortcut. You enable the accessibility service on the TV. You can also ask the assistant for a deeper clean-up and review each suggested app change.
 
-## 2. Install just the launcher · No AI needed
+## 2. Install the light edition with Downloader or USB
 
-On your TV, open **Downloader by AFTVnews**, enter **`6812755`**, then select **Go**. If the code does not open the file, enter [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk). Select **Install** and then **Open**. If Android asked for permission to install apps, turn it off again afterward. [Illustrated setup guide in 12 languages](https://seeclap.com/en/android-launcher/tv/)
+The light edition keeps the app shelf and program carousel. You can make it your Home app where Android offers that setting. On your TV, open **Downloader by AFTVnews**, enter **`6812755`**, then select **Go**. If the code does not open the file, enter [downloads.seeapps.studio/launcher/tv.apk](https://downloads.seeapps.studio/launcher/tv.apk). Select **Install** and then **Open**. If Android asked for permission to install apps, turn it off again afterward. [Illustrated setup guide in 12 languages](https://seeclap.com/en/android-launcher/tv/)
 
 **With a USB drive**
 
-[Download SeeClap Launcher 1.0.1 for Android TV (signed APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk). Copy it to a USB drive, open it on the TV with a file manager, then select **Install**. If Android asks for installation permission, turn it off again afterward. Open **SeeClap Launcher** and follow the on-screen setup. [Step-by-step guide](docs/guide/en.md)
+[Download the light edition for Android TV (signed APK)](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk). Copy it to a USB drive, open it on the TV with a file manager, then select **Install**. If Android asks for installation permission, turn it off again afterward. Open **SeeClap Launcher** and follow the on-screen setup. [Step-by-step guide](docs/guide/en.md)
+
+Both editions use the same app and signing key and have separate update channels. Android can refuse a switch to an older build.
 
 [Detailed help](docs/reference/en.md) · [Personal-use licence](LICENSE) · [Build from source](docs/build.md)
 

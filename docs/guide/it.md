@@ -2,6 +2,8 @@
 
 SeeClap Launcher riunisce le tue app preferite nella schermata Home di Android TV o Google TV con Android 7 o versioni successive. Il primo riquadro è sempre quello di SeeClap.
 
+Consigliamo l’installazione assistita per l’edizione completa con tasto Home, scorciatoia del telecomando e pulizia approfondita su richiesta. Downloader e USB usano l’edizione leggera.
+
 ## 1. Pulire la TV con l’aiuto dell’IA (consigliato)
 
 Collega il computer e la TV alla stessa rete Wi-Fi. Sul computer apri Claude Code o Codex con accesso al terminale e incolla questa frase.

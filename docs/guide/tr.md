@@ -2,6 +2,8 @@
 
 SeeClap Launcher, Android 7 veya daha yeni bir sürüm kullanan Android TV ya da Google TV cihazında sevdiğin uygulamaları ana ekranda bir araya getirir. İlk kutucuk her zaman SeeClap’e ayrılmıştır.
 
+Ana Ekran düğmesi, kumanda kısayolu ve isteğe bağlı derin temizlik için tam sürümü asistanla yüklemenizi öneririz. Downloader ve USB hafif sürümü kullanır.
+
 ## 1. Yapay zekâ yardımıyla TV’yi temizle (önerilen yöntem)
 
 Bilgisayarı ve televizyonu aynı Wi-Fi ağına bağla. Bilgisayarda terminale erişebilen Claude Code veya Codex’i aç ve şu cümleyi yapıştır.

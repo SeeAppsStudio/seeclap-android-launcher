@@ -40,12 +40,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. 只有我提出要求时，才从下方官方发布页面的附件中下载启动器 APK。
-如果没有 APK，就只清理缓存。
-在电脑上确认包名为 studio.seeapps.home，并验证下载文件的签名。
-将签名证书的 SHA-256 指纹与下方数值核对：
+4. 只有我提出要求时，才从下方链接将官方完整版下载到电脑。确认应用包名为 studio.seeapps.home。
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -71,7 +68,8 @@ https://github.com/Gathin23/cleanyourtv
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. 由我在 Android 设置中选择主屏幕应用。如果没有此选项，请告诉我如何从电视应用列表打开 SeeClap Launcher。若安装被拦截，请报告结果，提供变更记录和撤销步骤，然后断开 ADB。
+6. 使用完整版时，由我在电视的无障碍设置中自行启用可选的主页按钮服务，再在启动器的遥控器设置中选择快捷键。
+由我在 Android 设置中选择主屏幕应用。如果没有此选项，请告诉我如何从电视应用列表打开 SeeClap Launcher。若安装被拦截，请报告结果，提供变更记录和撤销步骤，然后断开 ADB。
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub 发布版本](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

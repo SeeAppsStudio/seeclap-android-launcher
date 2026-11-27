@@ -36,12 +36,9 @@ adb -s SERIAL shell df -k /data
 adb -s SERIAL shell pm trim-caches 999999999999
 adb -s SERIAL shell df -k /data
 
-4. Uniquement si je le demande, cherche l’APK du launcher dans les fichiers joints à la
-version officielle ci-dessous. Sans APK, poursuis le nettoyage seul. Vérifie le paquet
-studio.seeapps.home et la signature du fichier téléchargé sur l’ordinateur. Compare le
-SHA-256 du certificat du signataire à cette valeur :
+4. Uniquement si je le demande, télécharge l’édition complète officielle sur l’ordinateur depuis le lien ci-dessous. Vérifie le nom de paquet studio.seeapps.home.
 
-https://github.com/SeeAppsStudio/seeclap-android-launcher/releases
+https://downloads.seeapps.studio/launcher/tv-full.apk
 
 apksigner verify --print-certs APP.apk
 
@@ -68,7 +65,8 @@ Paquets SeeClap à protéger :
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Laisse-moi choisir l’accueil dans les réglages d’Android. Si le choix est indisponible, montre-moi comment ouvrir SeeClap Launcher depuis les applications de la TV. Signale tout blocage d’installation. Remets-moi le journal et les étapes pour annuler les changements. Déconnecte ADB et montre-moi comment révoquer les autorisations de débogage.
+6. Avec l’édition complète, laisse-moi activer moi-même le service facultatif du bouton Accueil dans les réglages d’accessibilité de la TV, puis choisir un raccourci dans Réglages › Télécommande.
+Laisse-moi choisir l’accueil dans les réglages d’Android. Si le choix est indisponible, montre-moi comment ouvrir SeeClap Launcher depuis les applications de la TV. Signale tout blocage d’installation. Remets-moi le journal et les étapes pour annuler les changements. Déconnecte ADB et montre-moi comment révoquer les autorisations de débogage.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versions sur GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)
