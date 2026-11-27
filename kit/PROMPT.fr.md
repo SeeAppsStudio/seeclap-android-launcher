@@ -68,14 +68,7 @@ Paquets SeeClap à protéger :
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Laisse-moi choisir l’accueil et activer moi-même le bouton Accueil dans les réglages
-d’accessibilité si je le souhaite. Ne modifie pas ces réglages par commande et ne contourne
-aucun contrôle. Remets-moi le journal et les étapes pour réactiver les apps, désactiver ce
-service et retrouver l’accueil du constructeur. Déconnecte ADB et montre-moi comment oublier
-cet ordinateur, révoquer les autorisations de débogage et couper le débogage sur la TV.
-
-Service du bouton Accueil
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Laisse-moi choisir l’accueil dans les réglages d’Android. Si le choix est indisponible, montre-moi comment ouvrir SeeClap Launcher depuis les applications de la TV. Signale tout blocage d’installation. Remets-moi le journal et les étapes pour annuler les changements. Déconnecte ADB et montre-moi comment révoquer les autorisations de débogage.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [Versions sur GitHub](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

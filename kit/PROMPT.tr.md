@@ -67,14 +67,7 @@ kalsın. Şu paketleri koru:
 
 com.seeappsstudio.seeclap / com.codingbyjerez.seeclap / studio.seeapps.home
 
-6. Ana ekranı kendim seçeyim. İstersem Ana Ekran tuşuna ait hizmeti Erişilebilirlik
-ayarlarından kendim açayım. Bu ayarları komutla değiştirme ve sistem denetimlerini atlatma.
-Bana değişiklik kaydını, uygulamaları geri yükleme, hizmeti kapatma ve üreticinin ana
-ekranına dönme adımlarını ver. ADB bağlantısını kes. Bilgisayarın eşlemesini kaldırmayı, hata
-ayıklama izinlerini iptal etmeyi ve TV’de hata ayıklamayı kapatmayı göster.
-
-Ana Ekran tuşu hizmeti
-studio.seeapps.home/studio.seeapps.home.HomeGuardService
+6. Android ayarlarında ana ekran uygulamasını benim seçmeme izin ver. Bu seçenek yoksa TV’nin uygulama listesinden SeeClap Launcher’ı nasıl açacağımı göster. Kurulum engelini bildir, değişiklik günlüğünü ve geri alma adımlarını ver, ardından ADB bağlantısını kes.
 ```
 
 [CleanYourTV](https://github.com/Gathin23/cleanyourtv) · [GitHub sürümleri](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases)

@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Il tasto Home",
     "setup_home_ready": "Il tasto Home del telecomando ora apre SeeClap Launcher.",
     "setup_home_try": "Prova: premi Home.",
+    "setup_home_open_from_apps": "Se la TV non consente di cambiare l’app Home, apri SeeClap Launcher dall’elenco delle app.",
     "setup_home_role": "Android ti chiederà quale Home usare: scegli SeeClap Launcher.",
     "setup_home_guard": "Su questa TV Google tiene il tasto Home. Un'impostazione di Android permette a SeeClap Launcher di riprenderlo.",
     "setup_home_steps": "1.  Premi «Apri Accessibilità».\n2.  Scegli «SeeClap Launcher – tasto Home».\n3.  Attivalo: tornerai qui da solo.",

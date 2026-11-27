@@ -17,6 +17,7 @@ class Setup(private val act: HomeActivity) : FrameLayout(act), ThemeAware {
 
     private enum class Step { WELCOME, THEME, SEECLAP, FAVORITES, HOME, REMOTE, CLEAN, DONE }
 
+    private val flow = Step.values().filterNot { BuildConfig.SITE && it == Step.REMOTE }
     private val prefs = Prefs.get(act)
     private var step = Step.WELCOME
     private val counter = act.themeLabel(22, Ui.medium, 0.55f).apply { gravity = Gravity.CENTER }
@@ -68,10 +69,10 @@ class Setup(private val act: HomeActivity) : FrameLayout(act), ThemeAware {
     private fun s(id: Int) = act.getString(id)
 
     private fun show(next: Step) {
-        if (step == Step.REMOTE && next != Step.REMOTE) HomeGuardService.learner = null
+        if (!BuildConfig.SITE && step == Step.REMOTE && next != Step.REMOTE) HomeGuardService.learner = null
         step = next
-        val total = Step.values().size - 2
-        val index = next.ordinal
+        val total = flow.size - 2
+        val index = flow.indexOf(next)
         counter.text = if (next == Step.WELCOME || next == Step.DONE) "" else act.getString(R.string.step_of, index, total)
         status.text = ""
         steps.text = ""
@@ -85,10 +86,11 @@ class Setup(private val act: HomeActivity) : FrameLayout(act), ThemeAware {
             Step.SEECLAP -> seeclapStep()
             Step.FAVORITES -> favoritesStep()
             Step.HOME -> homeStep()
-            Step.REMOTE -> remoteStep()
+            Step.REMOTE -> if (!BuildConfig.SITE) remoteStep()
             Step.CLEAN -> page("clean", R.string.setup_clean_title, s(R.string.setup_clean_text),
                 listOf(s(R.string.clean_now) to { DeepClean(act).start() }, s(R.string.next) to { show(Step.DONE) }))
-            Step.DONE -> page("check", R.string.setup_done_title, s(R.string.setup_done_text),
+            Step.DONE -> page("check", R.string.setup_done_title,
+                s(if (BuildConfig.SITE && !HomeButton.isDefault(act)) R.string.setup_home_open_from_apps else R.string.setup_done_text),
                 listOf(s(R.string.go_home) to { act.endSetup() }))
         }
         alpha = 0.6f
@@ -244,34 +246,39 @@ class Setup(private val act: HomeActivity) : FrameLayout(act), ThemeAware {
             HomeButton.isDefault(act) || HomeButton.guardEnabled(act) -> {
                 subtitle.text = s(R.string.setup_home_ready)
                 status.text = s(R.string.setup_home_try)
-                setButtons(listOf(s(R.string.next) to { show(Step.REMOTE) }))
+                setButtons(listOf(s(R.string.next) to { show(if (BuildConfig.SITE) Step.CLEAN else Step.REMOTE) }))
             }
             HomeButton.canAskRole(act) -> {
                 subtitle.text = s(R.string.setup_home_role)
                 setButtons(listOf(
                     s(R.string.choose_home) to { if (!HomeButton.askRole(act, 42)) HomeButton.openHomeSettings(act) },
-                    s(R.string.later) to { show(Step.REMOTE) },
+                    s(R.string.later) to { show(if (BuildConfig.SITE) Step.CLEAN else Step.REMOTE) },
+                ))
+            }
+            BuildConfig.SITE -> {
+                subtitle.text = s(R.string.setup_home_open_from_apps)
+                setButtons(listOf(
+                    s(R.string.choose_home) to {
+                        if (!HomeButton.openHomeSettings(act)) act.toast(s(R.string.cannot_open))
+                    },
+                    s(R.string.next) to { show(Step.CLEAN) },
                 ))
             }
             else -> {
-                val restricted = Build.VERSION.SDK_INT >= 33 && SeeClap.installerOf(act, act.packageName) != SeeClap.PLAY_STORE
                 subtitle.text = s(R.string.setup_home_guard)
                 steps.text = s(R.string.setup_home_steps)
                 val other = HomeButton.otherGuard(act)
                 note.text = when {
                     other != null -> act.getString(R.string.setup_home_other_guard, other)
-                    openedAccessibility -> s(R.string.setup_home_not_yet) + if (restricted) "\n" + s(R.string.setup_home_restricted) else ""
+                    openedAccessibility -> s(R.string.setup_home_not_yet)
                     else -> ""
                 }
-                setButtons(buildList {
-                    add(s(R.string.open_accessibility) to {
+                setButtons(listOf(
+                    s(R.string.open_accessibility) to {
                         act.requestGuard { openedAccessibility = true }
-                    })
-                    if (BuildConfig.SITE) add(s(R.string.by_debug) to {
-                        act.requestGuard(viaDebug = true) { openedAccessibility = true }
-                    })
-                    add(s(R.string.later) to { show(Step.REMOTE) })
-                })
+                    },
+                    s(R.string.later) to { show(Step.REMOTE) },
+                ))
             }
         }
     }
@@ -329,14 +336,14 @@ class Setup(private val act: HomeActivity) : FrameLayout(act), ThemeAware {
     }
 
     fun back() {
-        val prev = Step.values().getOrNull(step.ordinal - 1) ?: return
+        val prev = flow.getOrNull(flow.indexOf(step) - 1) ?: return
         show(prev)
     }
 
     fun onResumeSetup() {
         when (step) {
             Step.HOME -> homeStep()
-            Step.REMOTE -> remoteStep()
+            Step.REMOTE -> if (!BuildConfig.SITE) remoteStep()
             Step.SEECLAP -> if (SeeClap.installedPackage(act) != null) seeclapStep()
             else -> {}
         }

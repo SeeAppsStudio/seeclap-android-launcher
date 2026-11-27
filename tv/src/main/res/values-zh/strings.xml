@@ -201,6 +201,7 @@
     <string name="setup_home_title">主页按钮</string>
     <string name="setup_home_ready">遥控器的主页按钮现在会打开 SeeClap Launcher。</string>
     <string name="setup_home_try">试试看：按主页键。</string>
+    <string name="setup_home_open_from_apps">如果电视不支持更换主屏幕应用，请从应用列表打开 SeeClap Launcher。</string>
     <string name="setup_home_role">Android 会询问使用哪个主屏幕：请选择 SeeClap Launcher。</string>
     <string name="setup_home_guard">在这台电视上，主页按钮由 Google 保留。通过一项 Android 设置，SeeClap Launcher 可以接管它。</string>
     <string name="setup_home_steps">1.  按“打开无障碍”。\n2.  选择“SeeClap Launcher – 主页按钮”。\n3.  将其开启：会自动回到这里。</string>

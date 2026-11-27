@@ -31,7 +31,7 @@ APK dosyasının doğrudan indirme adresi · [downloads.seeapps.studio/launcher/
 
 APK yüklemeye hazır. Derleme yapman gerekmiyor.
 
-1. [SeeClap Launcher 1.0.0 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk).
+1. [SeeClap Launcher 1.0.1 APK dosyasını indir](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk).
 2. Dosyayı bir USB belleğe kopyala. Belleği TV’ye tak ve dosyayı bir dosya yöneticisiyle aç.
 3. Android yükleme izni isterse geçici olarak izin ver. Yükleme bittiğinde izni kaldır. **SeeClap Launcher**’ı aç ve ekrandaki adımları izle.
 

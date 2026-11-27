@@ -58,10 +58,13 @@ class TvListingsTest {
         assertEquals(listOf(visible), TvListings.channelsForFavorite(listOf(uploads, visible)))
     }
 
-    @Test fun playCopyWithIncompatibleDirectSharingUsesThePublicTvProvider() {
-        assertEquals(ProgramSource(SeeClap.PKG, true), Programs.source(SeeClap.PKG, SeeClap.PKG, 34, true) { true })
-        assertNull(Programs.source(SeeClap.PKG, SeeClap.PKG, 34, true) { false })
-        assertNull(Programs.source(SeeClap.PKG, "other.app", 34, true) { true })
+    @Test fun inaccessibleDirectSharingFallsBackWheneverAndroidTvListingsAreAvailable() {
+        for (sdk in listOf(26, 34, 36)) {
+            assertEquals(ProgramSource(SeeClap.PKG, true), Programs.source(SeeClap.PKG, SeeClap.PKG, sdk, canReadDirect = { false }) { true })
+        }
+        assertNull(Programs.source(SeeClap.PKG, SeeClap.PKG, 25, canReadDirect = { false }) { true })
+        assertNull(Programs.source(SeeClap.PKG, SeeClap.PKG, 34, canReadDirect = { false }) { false })
+        assertNull(Programs.source(SeeClap.PKG_AMAZON, SeeClap.PKG_AMAZON, 34, canReadDirect = { false }) { true })
     }
 
     @Test fun longMovieSectionLeavesRoomForShowsAndLiveInPublicationOrder() {
@@ -92,9 +95,9 @@ class TvListingsTest {
         assertEquals(45, program.remainingMin)
     }
 
-    @Test fun existingDirectProviderAlwaysOwnsTheShelf() {
+    @Test fun accessibleDirectProviderTakesPrecedenceOverAndroidTvListings() {
         for (sdk in listOf(24, 26, 36)) {
-            val source = Programs.source(SeeClap.PKG, SeeClap.PKG, sdk) { error("Lecture du système inattendue") }
+            val source = Programs.source(SeeClap.PKG, SeeClap.PKG, sdk, canReadDirect = { true }) { error("Lecture du système inattendue") }
             assertEquals(ProgramSource(SeeClap.PKG, false), source)
         }
     }

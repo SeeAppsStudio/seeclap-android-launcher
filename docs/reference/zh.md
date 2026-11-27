@@ -6,7 +6,7 @@
 
 **Downloader by AFTVnews** · 在 Downloader 中输入的代码 **`6812755`**. [使用 Downloader 安装](https://seeclap.com/zh/android-launcher/tv/#downloader)
 
-1. [下载 SeeClap Launcher 1.0.0 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.0/seeclap-launcher-2.apk)。
+1. [下载 SeeClap Launcher 1.0.1 安装包（APK）](https://github.com/SeeAppsStudio/seeclap-android-launcher/releases/download/v1.0.1/seeclap-launcher-4.apk)。
 2. 可以直接用电视浏览器下载，也可以在电脑上下载后复制到 U 盘，再用电视上的文件管理器打开。
 3. 如果 Android 阻止安装，请打开提示中的设置。Android 8 及更高版本需要为打开文件的那个应用开启**安装未知应用**权限。在 Android 7 上，请在安全设置中临时开启**未知来源**。
 4. 返回 APK 文件，确认**安装**，然后关闭刚才开启的权限。从电视的应用列表中打开 **SeeClap Launcher**。
@@ -16,9 +16,8 @@
 1. 选择**开始**。按左右方向键预览主题，按 OK 确认。**自动**会跟随电视的主题，也可以选择**浅色**或**深色**。
 2. 如果还没有 SeeClap，请选择**安装**或**稍后**。启动器会打开可用的商店（Google Play 或 Fire TV 上的 Amazon 商店）。APK 版也可以从 SeeClap 官网下载应用并验证签名。请在 Android 中确认安装。Google Play 版通过商店安装和更新应用。
 3. 除 SeeClap 外，默认布局最多可再选 5 个收藏应用，使用大卡片布局时最多可再选 4 个。选择**继续**即可保存。
-4. 如果 Android 提示为主页键选择默认主屏幕应用，请选择 SeeClap Launcher。如果向导显示**打开无障碍**，请阅读服务说明。选择**开**继续，然后在 Android 设置中启用 **SeeClap Launcher – 主页按钮**。选择**取消**可以关闭请求，选择**稍后**可以跳过这一步。
-5. 该服务启用后，按一下你要指定的遥控器按键。以后短按此键即可打开 SeeClap。如果原来的应用已安装且启动器能识别它，在**设置 › 遥控器**中开启相应选项后，长按可打开原来的应用。
-6. 可按需运行清理，也可选择**继续**，再选择**前往主页**。以后可以在**设置 › 重新运行设置向导**中重新检查这些选择。
+4. 如果 Android 允许选择默认主屏幕应用，请选择 SeeClap Launcher。否则，请从电视的应用列表打开它。
+5. 可按需运行清理，也可选择**继续**，再选择**前往主页**。以后可以在**设置 › 重新运行设置向导**中重新检查这些选择。
 
 ## 使用遥控器和应用
 
@@ -33,11 +32,11 @@
 
 ## 返回原来的主屏幕
 
-如果启用了无障碍服务，请选择**设置 › 主页按钮 › 暂停**，然后按主页键。如果另一应用是默认主屏幕，还会显示**打开原来的主屏幕**。如果默认主屏幕是 SeeClap Launcher，请在 Android 的默认应用设置中选择电视厂商的主屏幕应用。不同电视的菜单名称可能有所不同。
+如果另一应用是默认主屏幕，还会显示**打开原来的主屏幕**。如果默认主屏幕是 SeeClap Launcher，请在 Android 的默认应用设置中选择电视厂商的主屏幕应用。不同电视的菜单名称可能有所不同。
 
 ## 隐私和使用条款
 
-设置保存在电视上，Android 备份可能会包含这些设置。启动器在电视上读取节目列表，也可以通过 HTTPS 下载节目图片并缓存。APK 版还会连接 `downloads.seeapps.studio` 以进行安装和更新。启动器不展示广告，也不收集使用统计信息。无障碍服务会识别按键并检测原来的主屏幕何时打开，无须读取屏幕内容。
+设置保存在电视上，Android 备份可能会包含这些设置。启动器在电视上读取节目列表，也可以通过 HTTPS 下载节目图片并缓存。APK 版还会连接 `downloads.seeapps.studio` 以进行安装和更新。启动器不展示广告，也不收集使用统计信息。
 
 许可证允许个人出于非商业目的使用未经修改的软件。你可以分享官方项目链接。再次分发软件需要事先获得 See Apps Studio 的书面许可。SeeClap 始终位于首位。它的卡片不能移动或隐藏，也不能在启动器内移除或卸载 SeeClap。安装 SeeClap 后，在使用启动器期间请保留该应用。
 

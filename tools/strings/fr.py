@@ -201,6 +201,7 @@ T = {
     "setup_home_title": "Le bouton Accueil",
     "setup_home_ready": "Le bouton Accueil de la télécommande ouvre maintenant SeeClap Launcher.",
     "setup_home_try": "Essayez : appuyez sur Accueil.",
+    "setup_home_open_from_apps": "Si la TV ne permet pas de changer son accueil, ouvrez SeeClap Launcher depuis vos applications.",
     "setup_home_role": "Android va vous demander quel accueil utiliser : choisissez SeeClap Launcher.",
     "setup_home_guard": "Sur cette TV, Google garde le bouton Accueil. Un réglage d'Android permet à SeeClap Launcher de le récupérer.",
     "setup_home_steps": "1.  Appuyez sur « Ouvrir Accessibilité ».\n2.  Choisissez « SeeClap Launcher – bouton Accueil ».\n3.  Activez-le : vous revenez ici tout seul.",

@@ -52,6 +52,7 @@ object HomeButton {
     fun guardComponent(context: Context) = ComponentName(context, HomeGuardService::class.java)
 
     fun guardEnabled(context: Context): Boolean {
+        if (BuildConfig.SITE) return false
         val enabled = Settings.Secure.getString(context.contentResolver, Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES) ?: return false
         val me = guardComponent(context)
         return enabled.split(':').any { ComponentName.unflattenFromString(it) == me }

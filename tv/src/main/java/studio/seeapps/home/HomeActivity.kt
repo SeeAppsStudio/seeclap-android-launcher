@@ -361,7 +361,7 @@ class HomeActivity : Activity(), BackdropHost {
         super.onResume()
         applyTheme()
         Ui.reduceMotion = prefs.reduceMotion
-        HomeGuardService.reload()
+        if (!BuildConfig.SITE) HomeGuardService.reload()
         Installer.resumePending(this)
         home.onResumeHome()
         settings.refresh()
@@ -488,7 +488,7 @@ class HomeActivity : Activity(), BackdropHost {
         val s = setup ?: return
         setup = null
         prefs.setupDone = true
-        HomeGuardService.reload()
+        if (!BuildConfig.SITE) HomeGuardService.reload()
         root.removeView(s)
         top.visibility = View.VISIBLE
         top.alpha = 1f
@@ -504,27 +504,17 @@ class HomeActivity : Activity(), BackdropHost {
 
     private var otherGuardWarned = false
 
-    fun requestGuard(viaDebug: Boolean = false, onAccepted: () -> Unit = {}) {
+    fun requestGuard(onAccepted: () -> Unit = {}) {
+        if (BuildConfig.SITE) return
         val disclosure = Sheet(this, getString(R.string.guard_name), getString(R.string.guard_description))
         disclosure.row(null, getString(R.string.cancel)) { disclosure.close() }
         disclosure.row("shield", getString(R.string.yes)) {
             disclosure.close()
             onAccepted()
-            val returnToSetup = setup != null
-            if (BuildConfig.SITE && viaDebug) {
-                DeepClean(this).connect { adb ->
-                    prefs.awaitingGuard = returnToSetup
-                    if (!Cleaner.openAccessibilitySettings(adb)) {
-                        prefs.awaitingGuard = false
-                        Bg.main.post { toast(getString(R.string.home_guard_failed)) }
-                    }
-                }
-            } else {
-                prefs.awaitingGuard = returnToSetup
-                if (!HomeButton.openAccessibility(this)) {
-                    prefs.awaitingGuard = false
-                    toast(getString(R.string.cannot_open))
-                }
+            prefs.awaitingGuard = setup != null
+            if (!HomeButton.openAccessibility(this)) {
+                prefs.awaitingGuard = false
+                toast(getString(R.string.cannot_open))
             }
         }
         disclosure.show()

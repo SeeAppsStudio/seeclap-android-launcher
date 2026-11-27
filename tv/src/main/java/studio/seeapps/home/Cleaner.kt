@@ -5,7 +5,6 @@ import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
 import android.os.Environment
 import android.os.StatFs
-import android.provider.Settings
 import android.util.Base64
 import java.io.ByteArrayOutputStream
 import java.io.Closeable
@@ -113,11 +112,6 @@ object Cleaner {
 
     private fun commandSucceeded(adb: LocalAdb, command: String) = runCatching {
         adb.shell("$command; echo status=$?").trimEnd().lineSequence().last() == "status=0"
-    }.getOrDefault(false)
-
-    fun openAccessibilitySettings(adb: LocalAdb): Boolean = BuildConfig.SITE && runCatching {
-        adb.shell("am start -W -a ${Settings.ACTION_ACCESSIBILITY_SETTINGS}")
-            .lineSequence().any { it.trim() == "Status: ok" }
     }.getOrDefault(false)
 
     fun restore(context: Context, adb: LocalAdb, pkgs: Collection<String>): Int {
